@@ -1,0 +1,924 @@
+2019-01-14 14:38:49,655 [INFO] start miner app...
+2019-01-14 14:38:49,679 [INFO] cmdline  = /opt/minerapp/usr/local/bin/koel-mcm/koelminer/koelminer64 -uri ethproxy://0x06fa9b1578aad240ea27952e19ebe8897f941722.0022@eth.f2pool.com:8008 -coin eth  
+vm.nr_hugepages = 128
+2019-01-14 14:38:49,840 [INFO] sysctl code = 0,  result = vm.nr_hugepages = 128
+2019-01-14 14:38:49,861 [INFO] cmdline  = /opt/minerapp/usr/local/bin/koel-mcm/mcm/mcm  -a cryptonight -o stratum+tcp://xmr.f2pool.com:13531  -u 4AnRbeqoGVWHcA7GhjhYf87uZ4zyHNJnt8UPCg24gdU4QyiACMZMyeURh88Xt8jtxtGJQZSH3aMCsM7ge33RNi6Y9g8MGXy.0022  --api-port 3334  -t 8  
+
+********************************************************************************
+
+	 /$$   /$$  /$$$$$$  /$$$$$$$$ /$$
+	| $$  /$$/ /$$__  $$| $$_____/| $$
+	| $$ /$$/ | $$  \ $$| $$      | $$        Version: v1.6.1-201812251347
+	| $$$$$/  | $$  | $$| $$$$$   | $$            Mac: 00:f1:f3:03:40:c5
+	| $$  $$  | $$  | $$| $$__/   | $$             IP: 61.170.199.95
+	| $$\  $$ | $$  | $$| $$      | $$
+	| $$ \  $$|  $$$$$$/| $$$$$$$$| $$$$$$$$
+	|__/  \__/ \______/ |________/|________/
+
+********************************************************************************
+
+2019/01/14 14:38:50 [INFO] waiting for main proc...
+[1;32m * [0m[1;37mABOUT        [0m[1;36mMCM/0.9.4[0m[1;37m based on XMRig 2.8.3 gcc/7.3.0[0m[0m
+[1;32m * [0m[1;37mLIBS         libuv/1.18.0 OpenSSL/1.1.0g [0m[0m
+[1;32m * [0m[1;37mCPU          Intel(R) Xeon(R) CPU E5-2650 0 @ 2.00GHz (1)[0m [1;32mx64 [1;32mAES[0m
+[1;32m * [0m[1;37mCPU L2/L3    2.0 MB/20.0 MB[0m[0m
+[1;32m * [0m[1;37mTHREADS      [0m[1;36m8[0m[1;37m, cryptonight, av=0, donate=1%[0m[1;37m[0m[0m
+[1;32m * [0m[1;37mASSEMBLY     auto:[1;32mintel[0m[0m[0m
+[1;32m * [0m[1;37mPOOL #1      [0m[1;36mstratum+tcp://xmr.f2pool.com:13531[0m variant [1;37mauto[0m[0m
+[1;32m * [0m[1;37mCOMMANDS     [0m[1;35mh[0m[1;37mashrate, [0m[1;35mp[0m[1;37mause, [0m[1;35mr[0m[1;37mesume[0m[0m
+[2019-01-14 14:38:50] [1;37muse pool [0m[1;36mxmr.f2pool.com:13531 [0m[1;32m[0m [1;30m139.224.170.186 [0m
+[2019-01-14 14:38:50] [1;35mnew job[0m from [1;37mxmr.f2pool.com:13531[0m diff [1;37m32768[0m algo [1;37mcn/2[0m[0m
+[2019-01-14 14:38:50] [1;32mREADY (CPU)[0m threads [1;36m8(8)[0m huge pages [1;32m8/8 100%[0m memory [1;36m16.0 MB[0m[0m
+2019/01/14 14:38:51 [INFO] Koel lives!
+2019/01/14 14:38:51 [INFO] starting Koel miner...
+2019-01-14 14:38:55,937 [ERROR] rpc error: <urlopen error [Errno 99] Cannot assign requested address>
+2019-01-14 14:38:55,939 [ERROR] rpc error: <urlopen error [Errno 99] Cannot assign requested address>
+[2019-01-14 14:38:57] [01;32maccepted[0m (1/0) diff [01;37m32768[0m [01;30m(48 ms)[0m
+2019/01/14 14:39:00 [INFO] ETH: 1 pool is specified
+2019/01/14 14:39:00 [INFO] api server start at 0.0.0.0:3333
+2019/01/14 14:39:00 [INFO] GPU #0: Ellesmere (Radeon RX 570 Series), 4084 MB available, 32 compute units (pci bus 2:0:0)
+2019/01/14 14:39:00 [INFO] GPU #0 recognized as Radeon RX 470/570
+2019/01/14 14:39:00 [INFO] GPU #1: Ellesmere (Radeon RX 570 Series), 4076 MB available, 32 compute units (pci bus 3:0:0)
+2019/01/14 14:39:00 [INFO] GPU #1 recognized as Radeon RX 470/570
+2019/01/14 14:39:00 [INFO] GPU #2: Ellesmere (Radeon RX 570 Series), 4084 MB available, 32 compute units (pci bus 5:0:0)
+2019/01/14 14:39:00 [INFO] GPU #2 recognized as Radeon RX 470/570
+2019/01/14 14:39:00 [INFO] GPU #3: Ellesmere (Radeon RX 570 Series), 4084 MB available, 32 compute units (pci bus 9:0:0)
+2019/01/14 14:39:00 [INFO] GPU #3 recognized as Radeon RX 470/570
+2019/01/14 14:39:00 [INFO] GPU #4: Ellesmere (Radeon RX 570 Series), 4084 MB available, 32 compute units (pci bus 12:0:0)
+2019/01/14 14:39:00 [INFO] GPU #4 recognized as Radeon RX 470/570
+2019/01/14 14:39:00 [INFO] GPU #5: Ellesmere (Radeon RX 570 Series), 8180 MB available, 32 compute units (pci bus 13:0:0)
+2019/01/14 14:39:00 [INFO] GPU #5 recognized as Radeon RX 470/570
+2019/01/14 14:39:00 [INFO] GPU #0: algorithm ASM 1
+2019/01/14 14:39:00 [INFO] GPU #1: algorithm ASM 1
+2019/01/14 14:39:00 [INFO] GPU #2: algorithm ASM 1
+2019/01/14 14:39:00 [INFO] GPU #3: algorithm ASM 1
+2019/01/14 14:39:00 [INFO] GPU #4: algorithm ASM 1
+2019/01/14 14:39:00 [INFO] GPU #5: algorithm ASM 1
+2019/01/14 14:39:00 [INFO] ETH: Stratum - connecting to 'eth.f2pool.com' <203.107.32.162> port 8008 (unsecure)
+2019/01/14 14:39:00 [INFO] ETH: Stratum - Connected (eth.f2pool.com:8008) (unsecure)
+2019/01/14 14:39:00 [INFO] ETH: Authorized
+2019/01/14 14:39:00 [INFO] ETH: eth-proxy stratum mode
+2019/01/14 14:39:05 [INFO] ETH: 01/14/19-14:39:04 - New job from eth.f2pool.com:8008
+2019/01/14 14:39:05 [INFO] ETH - Total Speed: 0.000 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+2019/01/14 14:39:05 [INFO] ETH: GPU0 0.000 Mh/s, GPU1 0.000 Mh/s, GPU2 0.000 Mh/s, GPU3 0.000 Mh/s, GPU4 0.000 Mh/s, GPU5 0.000 Mh/s
+2019/01/14 14:39:05 [INFO] ETH: 01/14/19-14:39:05 - New job from eth.f2pool.com:8008
+2019/01/14 14:39:05 [INFO] ETH - Total Speed: 0.000 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+2019/01/14 14:39:05 [INFO] ETH: GPU0 0.000 Mh/s, GPU1 0.000 Mh/s, GPU2 0.000 Mh/s, GPU3 0.000 Mh/s, GPU4 0.000 Mh/s, GPU5 0.000 Mh/s
+2019/01/14 14:39:10 [INFO] GPU1 DAG creation time - 4548 ms
+2019/01/14 14:39:10 [INFO] GPU0 DAG creation time - 4616 ms
+2019/01/14 14:39:10 [INFO] GPU3 DAG creation time - 4614 ms
+2019/01/14 14:39:10 [INFO] GPU4 DAG creation time - 4614 ms
+2019/01/14 14:39:10 [INFO] GPU2 DAG creation time - 4790 ms
+2019/01/14 14:39:10 [INFO] GPU5 DAG creation time - 5180 ms
+2019/01/14 14:39:13 [INFO] ETH: 01/14/19-14:39:13 - SHARE FOUND - (GPU 1)
+2019/01/14 14:39:14 [INFO] ETH: Share accepted (27 ms)!
+2019-01-14 14:39:20,047 [INFO] check miner proc status, pid 5297
+2019/01/14 14:39:21 [INFO] GPU #0: apply best detected -dcri value: 6
+2019/01/14 14:39:21 [INFO] GPU #1: apply best detected -dcri value: 6
+2019/01/14 14:39:21 [INFO] GPU #2: apply best detected -dcri value: 6
+2019/01/14 14:39:21 [INFO] GPU #3: apply best detected -dcri value: 6
+2019/01/14 14:39:21 [INFO] GPU #4: apply best detected -dcri value: 6
+2019/01/14 14:39:21 [INFO] GPU #5: apply best detected -dcri value: 8
+2019/01/14 14:39:24 [INFO] GPU0 t=52C fan=48%, GPU1 t=54C fan=48%, GPU2 t=51C fan=48%, GPU3 t=49C fan=48%, GPU4 t=49C fan=48%, GPU5 t=50C fan=48%
+2019-01-14 14:39:28,021 [INFO] check miner proc status, pid 5330
+2019/01/14 14:39:28 [INFO] ETH: 01/14/19-14:39:28 - New job from eth.f2pool.com:8008
+2019/01/14 14:39:28 [INFO] ETH - Total Speed: 185.502 Mh/s, Total Shares: 1, Rejected: 0, Time: 00:00
+2019/01/14 14:39:28 [INFO] ETH: GPU0 31.118 Mh/s, GPU1 31.065 Mh/s, GPU2 30.306 Mh/s, GPU3 31.118 Mh/s, GPU4 31.116 Mh/s, GPU5 30.779 Mh/s
+2019/01/14 14:39:28 [INFO] ETH: 01/14/19-14:39:28 - New job from eth.f2pool.com:8008
+2019/01/14 14:39:28 [INFO] ETH - Total Speed: 185.431 Mh/s, Total Shares: 1, Rejected: 0, Time: 00:00
+2019/01/14 14:39:28 [INFO] ETH: GPU0 31.098 Mh/s, GPU1 31.052 Mh/s, GPU2 30.300 Mh/s, GPU3 31.110 Mh/s, GPU4 31.104 Mh/s, GPU5 30.768 Mh/s
+2019/01/14 14:39:28 [INFO] ETH: 01/14/19-14:39:28 - SHARE FOUND - (GPU 2)
+2019/01/14 14:39:29 [INFO] ETH: Share accepted (57 ms)!
+2019/01/14 14:39:40 [INFO] ETH: 01/14/19-14:39:40 - New job from eth.f2pool.com:8008
+2019/01/14 14:39:40 [INFO] ETH - Total Speed: 185.509 Mh/s, Total Shares: 2, Rejected: 0, Time: 00:00
+2019/01/14 14:39:40 [INFO] ETH: GPU0 31.117 Mh/s, GPU1 31.066 Mh/s, GPU2 30.306 Mh/s, GPU3 31.123 Mh/s, GPU4 31.118 Mh/s, GPU5 30.780 Mh/s
+2019/01/14 14:39:40 [INFO] ETH: 01/14/19-14:39:40 - New job from eth.f2pool.com:8008
+2019/01/14 14:39:40 [INFO] ETH - Total Speed: 185.509 Mh/s, Total Shares: 2, Rejected: 0, Time: 00:00
+2019/01/14 14:39:40 [INFO] ETH: GPU0 31.117 Mh/s, GPU1 31.066 Mh/s, GPU2 30.306 Mh/s, GPU3 31.123 Mh/s, GPU4 31.118 Mh/s, GPU5 30.780 Mh/s
+2019-01-14 14:39:50,047 [INFO] check miner proc status, pid 5297
+[2019-01-14 14:39:53] [1;37mspeed[0m 10s/60s/15m [1;36m335.51[0m[0;36m 334.29 n/a [0m[1;36mH/s[0m max [1;36m335.54 H/s[0m[0m
+2019/01/14 14:39:54 [INFO] GPU0 t=54C fan=48%, GPU1 t=57C fan=48%, GPU2 t=53C fan=48%, GPU3 t=52C fan=48%, GPU4 t=52C fan=48%, GPU5 t=53C fan=48%
+2019/01/14 14:39:55 [INFO] ETH: 01/14/19-14:39:55 - New job from eth.f2pool.com:8008
+2019/01/14 14:39:55 [INFO] ETH - Total Speed: 185.511 Mh/s, Total Shares: 2, Rejected: 0, Time: 00:00
+2019/01/14 14:39:55 [INFO] ETH: GPU0 31.116 Mh/s, GPU1 31.067 Mh/s, GPU2 30.308 Mh/s, GPU3 31.123 Mh/s, GPU4 31.117 Mh/s, GPU5 30.780 Mh/s
+[2019-01-14 14:39:55] [1;35mnew job[0m from [1;37mxmr.f2pool.com:13531[0m diff [1;37m16384[0m algo [1;37mcn/2[0m[0m
+[2019-01-14 14:39:59] [01;32maccepted[0m (2/0) diff [01;37m16384[0m [01;30m(51 ms)[0m
+[2019-01-14 14:40:04] [01;32maccepted[0m (3/0) diff [01;37m16384[0m [01;30m(63 ms)[0m
+2019/01/14 14:40:05 [INFO] ETH: 01/14/19-14:40:05 - SHARE FOUND - (GPU 1)
+2019/01/14 14:40:05 [INFO] ETH: Share accepted (38 ms)!
+2019/01/14 14:40:05 [INFO] ETH: 01/14/19-14:40:05 - SHARE FOUND - (GPU 0)
+2019/01/14 14:40:05 [INFO] ETH: Share accepted (27 ms)!
+2019-01-14 14:40:20,047 [INFO] check miner proc status, pid 5297
+2019/01/14 14:40:21 [INFO] ETH: 01/14/19-14:40:21 - New job from eth.f2pool.com:8008
+2019/01/14 14:40:21 [INFO] ETH - Total Speed: 185.505 Mh/s, Total Shares: 4, Rejected: 0, Time: 00:01
+2019/01/14 14:40:21 [INFO] ETH: GPU0 31.108 Mh/s, GPU1 31.066 Mh/s, GPU2 30.310 Mh/s, GPU3 31.122 Mh/s, GPU4 31.120 Mh/s, GPU5 30.778 Mh/s
+2019/01/14 14:40:22 [INFO] ETH: 01/14/19-14:40:22 - New job from eth.f2pool.com:8008
+2019/01/14 14:40:22 [INFO] ETH - Total Speed: 185.505 Mh/s, Total Shares: 4, Rejected: 0, Time: 00:01
+2019/01/14 14:40:22 [INFO] ETH: GPU0 31.108 Mh/s, GPU1 31.066 Mh/s, GPU2 30.310 Mh/s, GPU3 31.122 Mh/s, GPU4 31.120 Mh/s, GPU5 30.778 Mh/s
+2019/01/14 14:40:24 [INFO] GPU0 t=56C fan=48%, GPU1 t=59C fan=48%, GPU2 t=55C fan=48%, GPU3 t=54C fan=48%, GPU4 t=54C fan=48%, GPU5 t=55C fan=48%
+2019/01/14 14:40:27 [INFO] ETH: 01/14/19-14:40:27 - New job from eth.f2pool.com:8008
+2019/01/14 14:40:27 [INFO] ETH - Total Speed: 185.509 Mh/s, Total Shares: 4, Rejected: 0, Time: 00:01
+2019/01/14 14:40:27 [INFO] ETH: GPU0 31.110 Mh/s, GPU1 31.068 Mh/s, GPU2 30.308 Mh/s, GPU3 31.120 Mh/s, GPU4 31.120 Mh/s, GPU5 30.783 Mh/s
+2019/01/14 14:40:27 [INFO] ETH: 01/14/19-14:40:27 - SHARE FOUND - (GPU 2)
+2019/01/14 14:40:27 [INFO] ETH: 01/14/19-14:40:27 - New job from eth.f2pool.com:8008
+2019/01/14 14:40:27 [INFO] ETH - Total Speed: 185.509 Mh/s, Total Shares: 5, Rejected: 0, Time: 00:01
+2019/01/14 14:40:27 [INFO] ETH: GPU0 31.110 Mh/s, GPU1 31.068 Mh/s, GPU2 30.308 Mh/s, GPU3 31.120 Mh/s, GPU4 31.120 Mh/s, GPU5 30.783 Mh/s
+2019/01/14 14:40:27 [INFO] ETH: Share accepted (30 ms)!
+2019/01/14 14:40:29 [INFO] ETH: 01/14/19-14:40:29 - New job from eth.f2pool.com:8008
+2019/01/14 14:40:29 [INFO] ETH - Total Speed: 185.507 Mh/s, Total Shares: 5, Rejected: 0, Time: 00:01
+2019/01/14 14:40:29 [INFO] ETH: GPU0 31.108 Mh/s, GPU1 31.072 Mh/s, GPU2 30.309 Mh/s, GPU3 31.119 Mh/s, GPU4 31.118 Mh/s, GPU5 30.781 Mh/s
+2019/01/14 14:40:34 [INFO] ETH: 01/14/19-14:40:33 - New job from eth.f2pool.com:8008
+2019/01/14 14:40:34 [INFO] ETH - Total Speed: 185.671 Mh/s, Total Shares: 5, Rejected: 0, Time: 00:01
+2019/01/14 14:40:34 [INFO] ETH: GPU0 31.137 Mh/s, GPU1 31.094 Mh/s, GPU2 30.338 Mh/s, GPU3 31.148 Mh/s, GPU4 31.146 Mh/s, GPU5 30.807 Mh/s
+2019-01-14 14:40:34,230 [INFO] check miner proc status, pid 5330
+2019/01/14 14:40:34 [INFO] ETH: 01/14/19-14:40:34 - New job from eth.f2pool.com:8008
+2019/01/14 14:40:34 [INFO] ETH - Total Speed: 185.671 Mh/s, Total Shares: 5, Rejected: 0, Time: 00:01
+2019/01/14 14:40:34 [INFO] ETH: GPU0 31.137 Mh/s, GPU1 31.094 Mh/s, GPU2 30.338 Mh/s, GPU3 31.148 Mh/s, GPU4 31.146 Mh/s, GPU5 30.807 Mh/s
+2019/01/14 14:40:41 [INFO] ETH: 01/14/19-14:40:41 - SHARE FOUND - (GPU 0)
+2019/01/14 14:40:41 [INFO] ETH: Share accepted (43 ms)!
+2019/01/14 14:40:42 [INFO] ETH: 01/14/19-14:40:42 - SHARE FOUND - (GPU 2)
+2019/01/14 14:40:42 [INFO] ETH: Share accepted (29 ms)!
+2019/01/14 14:40:46 [INFO] ETH: 01/14/19-14:40:46 - New job from eth.f2pool.com:8008
+2019/01/14 14:40:46 [INFO] ETH - Total Speed: 185.619 Mh/s, Total Shares: 7, Rejected: 0, Time: 00:01
+2019/01/14 14:40:46 [INFO] ETH: GPU0 31.124 Mh/s, GPU1 31.089 Mh/s, GPU2 30.328 Mh/s, GPU3 31.138 Mh/s, GPU4 31.140 Mh/s, GPU5 30.799 Mh/s
+2019/01/14 14:40:46 [INFO] ETH: 01/14/19-14:40:46 - New job from eth.f2pool.com:8008
+2019/01/14 14:40:46 [INFO] ETH - Total Speed: 185.619 Mh/s, Total Shares: 7, Rejected: 0, Time: 00:01
+2019/01/14 14:40:46 [INFO] ETH: GPU0 31.124 Mh/s, GPU1 31.089 Mh/s, GPU2 30.328 Mh/s, GPU3 31.138 Mh/s, GPU4 31.140 Mh/s, GPU5 30.799 Mh/s
+2019-01-14 14:40:50,048 [INFO] check miner proc status, pid 5297
+2019/01/14 14:40:50 [INFO] ETH: 01/14/19-14:40:50 - New job from eth.f2pool.com:8008
+2019/01/14 14:40:50 [INFO] ETH - Total Speed: 185.601 Mh/s, Total Shares: 7, Rejected: 0, Time: 00:01
+2019/01/14 14:40:50 [INFO] ETH: GPU0 31.123 Mh/s, GPU1 31.084 Mh/s, GPU2 30.326 Mh/s, GPU3 31.137 Mh/s, GPU4 31.134 Mh/s, GPU5 30.797 Mh/s
+2019/01/14 14:40:50 [INFO] ETH: 01/14/19-14:40:50 - New job from eth.f2pool.com:8008
+2019/01/14 14:40:50 [INFO] ETH - Total Speed: 185.601 Mh/s, Total Shares: 7, Rejected: 0, Time: 00:01
+2019/01/14 14:40:50 [INFO] ETH: GPU0 31.123 Mh/s, GPU1 31.084 Mh/s, GPU2 30.326 Mh/s, GPU3 31.137 Mh/s, GPU4 31.134 Mh/s, GPU5 30.797 Mh/s
+[2019-01-14 14:40:53] [1;37mspeed[0m 10s/60s/15m [1;36m335.44[0m[0;36m 335.49 n/a [0m[1;36mH/s[0m max [1;36m335.60 H/s[0m[0m
+2019/01/14 14:40:54 [INFO] GPU0 t=57C fan=48%, GPU1 t=60C fan=48%, GPU2 t=56C fan=48%, GPU3 t=55C fan=48%, GPU4 t=55C fan=48%, GPU5 t=57C fan=48%
+[2019-01-14 14:40:57] [1;35mnew job[0m from [1;37mxmr.f2pool.com:13531[0m diff [1;37m16384[0m algo [1;37mcn/2[0m[0m
+2019/01/14 14:41:00 [INFO] ETH: 01/14/19-14:40:59 - New job from eth.f2pool.com:8008
+2019/01/14 14:41:00 [INFO] ETH - Total Speed: 185.586 Mh/s, Total Shares: 7, Rejected: 0, Time: 00:01
+2019/01/14 14:41:00 [INFO] ETH: GPU0 31.119 Mh/s, GPU1 31.083 Mh/s, GPU2 30.320 Mh/s, GPU3 31.136 Mh/s, GPU4 31.132 Mh/s, GPU5 30.795 Mh/s
+2019/01/14 14:41:00 [INFO] ETH: 01/14/19-14:41:00 - New job from eth.f2pool.com:8008
+2019/01/14 14:41:00 [INFO] ETH - Total Speed: 185.586 Mh/s, Total Shares: 7, Rejected: 0, Time: 00:02
+2019/01/14 14:41:00 [INFO] ETH: GPU0 31.119 Mh/s, GPU1 31.083 Mh/s, GPU2 30.320 Mh/s, GPU3 31.136 Mh/s, GPU4 31.132 Mh/s, GPU5 30.795 Mh/s
+2019/01/14 14:41:08 [INFO] ETH: 01/14/19-14:41:08 - New job from eth.f2pool.com:8008
+2019/01/14 14:41:08 [INFO] ETH - Total Speed: 185.560 Mh/s, Total Shares: 7, Rejected: 0, Time: 00:02
+2019/01/14 14:41:08 [INFO] ETH: GPU0 31.111 Mh/s, GPU1 31.082 Mh/s, GPU2 30.320 Mh/s, GPU3 31.130 Mh/s, GPU4 31.127 Mh/s, GPU5 30.791 Mh/s
+2019/01/14 14:41:08 [INFO] ETH: 01/14/19-14:41:08 - New job from eth.f2pool.com:8008
+2019/01/14 14:41:08 [INFO] ETH - Total Speed: 185.560 Mh/s, Total Shares: 7, Rejected: 0, Time: 00:02
+2019/01/14 14:41:08 [INFO] ETH: GPU0 31.111 Mh/s, GPU1 31.082 Mh/s, GPU2 30.320 Mh/s, GPU3 31.130 Mh/s, GPU4 31.127 Mh/s, GPU5 30.791 Mh/s
+2019/01/14 14:41:08 [INFO] ETH: 01/14/19-14:41:08 - New job from eth.f2pool.com:8008
+2019/01/14 14:41:08 [INFO] ETH - Total Speed: 185.560 Mh/s, Total Shares: 7, Rejected: 0, Time: 00:02
+2019/01/14 14:41:08 [INFO] ETH: GPU0 31.111 Mh/s, GPU1 31.082 Mh/s, GPU2 30.320 Mh/s, GPU3 31.130 Mh/s, GPU4 31.127 Mh/s, GPU5 30.791 Mh/s
+2019-01-14 14:41:20,048 [INFO] check miner proc status, pid 5297
+2019/01/14 14:41:24 [INFO] GPU0 t=58C fan=48%, GPU1 t=61C fan=48%, GPU2 t=56C fan=48%, GPU3 t=56C fan=48%, GPU4 t=56C fan=48%, GPU5 t=57C fan=48%
+2019/01/14 14:41:25 [INFO] ETH: 01/14/19-14:41:25 - SHARE FOUND - (GPU 3)
+2019/01/14 14:41:25 [INFO] ETH: Share accepted (35 ms)!
+2019/01/14 14:41:26 [INFO] ETH: 01/14/19-14:41:26 - New job from eth.f2pool.com:8008
+2019/01/14 14:41:26 [INFO] ETH - Total Speed: 185.534 Mh/s, Total Shares: 8, Rejected: 0, Time: 00:02
+2019/01/14 14:41:26 [INFO] ETH: GPU0 31.097 Mh/s, GPU1 31.077 Mh/s, GPU2 30.319 Mh/s, GPU3 31.128 Mh/s, GPU4 31.125 Mh/s, GPU5 30.788 Mh/s
+2019/01/14 14:41:27 [INFO] ETH: 01/14/19-14:41:26 - New job from eth.f2pool.com:8008
+2019/01/14 14:41:27 [INFO] ETH - Total Speed: 185.481 Mh/s, Total Shares: 8, Rejected: 0, Time: 00:02
+2019/01/14 14:41:27 [INFO] ETH: GPU0 31.088 Mh/s, GPU1 31.068 Mh/s, GPU2 30.310 Mh/s, GPU3 31.119 Mh/s, GPU4 31.114 Mh/s, GPU5 30.783 Mh/s
+2019-01-14 14:41:27,288 [INFO] check miner proc status, pid 5330
+2019/01/14 14:41:29 [INFO] ETH: 01/14/19-14:41:29 - New job from eth.f2pool.com:8008
+2019/01/14 14:41:29 [INFO] ETH - Total Speed: 185.525 Mh/s, Total Shares: 8, Rejected: 0, Time: 00:02
+2019/01/14 14:41:29 [INFO] ETH: GPU0 31.098 Mh/s, GPU1 31.075 Mh/s, GPU2 30.315 Mh/s, GPU3 31.126 Mh/s, GPU4 31.126 Mh/s, GPU5 30.785 Mh/s
+2019/01/14 14:41:29 [INFO] ETH: 01/14/19-14:41:29 - New job from eth.f2pool.com:8008
+2019/01/14 14:41:29 [INFO] ETH - Total Speed: 185.525 Mh/s, Total Shares: 8, Rejected: 0, Time: 00:02
+2019/01/14 14:41:29 [INFO] ETH: GPU0 31.098 Mh/s, GPU1 31.075 Mh/s, GPU2 30.315 Mh/s, GPU3 31.126 Mh/s, GPU4 31.126 Mh/s, GPU5 30.785 Mh/s
+2019/01/14 14:41:41 [INFO] ETH: 01/14/19-14:41:41 - New job from eth.f2pool.com:8008
+2019/01/14 14:41:41 [INFO] ETH - Total Speed: 185.503 Mh/s, Total Shares: 8, Rejected: 0, Time: 00:02
+2019/01/14 14:41:41 [INFO] ETH: GPU0 31.089 Mh/s, GPU1 31.073 Mh/s, GPU2 30.317 Mh/s, GPU3 31.121 Mh/s, GPU4 31.121 Mh/s, GPU5 30.783 Mh/s
+2019/01/14 14:41:46 [INFO] ETH: 01/14/19-14:41:46 - New job from eth.f2pool.com:8008
+2019/01/14 14:41:46 [INFO] ETH - Total Speed: 185.502 Mh/s, Total Shares: 8, Rejected: 0, Time: 00:02
+2019/01/14 14:41:46 [INFO] ETH: GPU0 31.085 Mh/s, GPU1 31.073 Mh/s, GPU2 30.317 Mh/s, GPU3 31.120 Mh/s, GPU4 31.121 Mh/s, GPU5 30.786 Mh/s
+2019/01/14 14:41:47 [INFO] ETH: 01/14/19-14:41:46 - New job from eth.f2pool.com:8008
+2019/01/14 14:41:47 [INFO] ETH - Total Speed: 185.502 Mh/s, Total Shares: 8, Rejected: 0, Time: 00:02
+2019/01/14 14:41:47 [INFO] ETH: GPU0 31.085 Mh/s, GPU1 31.073 Mh/s, GPU2 30.317 Mh/s, GPU3 31.120 Mh/s, GPU4 31.121 Mh/s, GPU5 30.786 Mh/s
+2019-01-14 14:41:50,049 [INFO] check miner proc status, pid 5297
+[2019-01-14 14:41:53] [1;37mspeed[0m 10s/60s/15m [1;36m335.53[0m[0;36m 335.51 n/a [0m[1;36mH/s[0m max [1;36m335.60 H/s[0m[0m
+2019/01/14 14:41:54 [INFO] GPU0 t=59C fan=48%, GPU1 t=61C fan=48%, GPU2 t=57C fan=48%, GPU3 t=56C fan=48%, GPU4 t=56C fan=48%, GPU5 t=58C fan=48%
+2019/01/14 14:41:55 [INFO] ETH: 01/14/19-14:41:54 - New job from eth.f2pool.com:8008
+2019/01/14 14:41:55 [INFO] ETH - Total Speed: 185.497 Mh/s, Total Shares: 8, Rejected: 0, Time: 00:02
+2019/01/14 14:41:55 [INFO] ETH: GPU0 31.083 Mh/s, GPU1 31.072 Mh/s, GPU2 30.314 Mh/s, GPU3 31.125 Mh/s, GPU4 31.118 Mh/s, GPU5 30.784 Mh/s
+2019/01/14 14:41:55 [INFO] ETH: 01/14/19-14:41:54 - New job from eth.f2pool.com:8008
+2019/01/14 14:41:55 [INFO] ETH - Total Speed: 185.497 Mh/s, Total Shares: 8, Rejected: 0, Time: 00:02
+2019/01/14 14:41:55 [INFO] ETH: GPU0 31.083 Mh/s, GPU1 31.072 Mh/s, GPU2 30.314 Mh/s, GPU3 31.125 Mh/s, GPU4 31.118 Mh/s, GPU5 30.784 Mh/s
+2019/01/14 14:41:57 [INFO] ETH: 01/14/19-14:41:57 - New job from eth.f2pool.com:8008
+2019/01/14 14:41:57 [INFO] ETH - Total Speed: 185.494 Mh/s, Total Shares: 8, Rejected: 0, Time: 00:02
+2019/01/14 14:41:57 [INFO] ETH: GPU0 31.081 Mh/s, GPU1 31.073 Mh/s, GPU2 30.316 Mh/s, GPU3 31.118 Mh/s, GPU4 31.120 Mh/s, GPU5 30.786 Mh/s
+2019/01/14 14:41:57 [INFO] ETH: 01/14/19-14:41:57 - New job from eth.f2pool.com:8008
+2019/01/14 14:41:57 [INFO] ETH - Total Speed: 185.494 Mh/s, Total Shares: 8, Rejected: 0, Time: 00:02
+2019/01/14 14:41:57 [INFO] ETH: GPU0 31.081 Mh/s, GPU1 31.073 Mh/s, GPU2 30.316 Mh/s, GPU3 31.118 Mh/s, GPU4 31.120 Mh/s, GPU5 30.786 Mh/s
+2019-01-14 14:42:20,049 [INFO] check miner proc status, pid 5297
+2019-01-14 14:42:23,891 [INFO] check miner proc status, pid 5330
+2019/01/14 14:42:24 [INFO] GPU0 t=59C fan=48%, GPU1 t=61C fan=48%, GPU2 t=57C fan=48%, GPU3 t=56C fan=48%, GPU4 t=57C fan=48%, GPU5 t=59C fan=48%
+2019/01/14 14:42:29 [INFO] ETH: 01/14/19-14:42:29 - New job from eth.f2pool.com:8008
+2019/01/14 14:42:29 [INFO] ETH - Total Speed: 185.479 Mh/s, Total Shares: 8, Rejected: 0, Time: 00:03
+2019/01/14 14:42:29 [INFO] ETH: GPU0 31.074 Mh/s, GPU1 31.073 Mh/s, GPU2 30.312 Mh/s, GPU3 31.116 Mh/s, GPU4 31.118 Mh/s, GPU5 30.786 Mh/s
+2019/01/14 14:42:30 [INFO] ETH: 01/14/19-14:42:29 - New job from eth.f2pool.com:8008
+2019/01/14 14:42:30 [INFO] ETH - Total Speed: 185.479 Mh/s, Total Shares: 8, Rejected: 0, Time: 00:03
+2019/01/14 14:42:30 [INFO] ETH: GPU0 31.074 Mh/s, GPU1 31.073 Mh/s, GPU2 30.312 Mh/s, GPU3 31.116 Mh/s, GPU4 31.118 Mh/s, GPU5 30.786 Mh/s
+2019/01/14 14:42:46 [INFO] ETH: 01/14/19-14:42:46 - SHARE FOUND - (GPU 5)
+2019/01/14 14:42:46 [INFO] ETH: Share accepted (28 ms)!
+[2019-01-14 14:42:46] [01;32maccepted[0m (4/0) diff [01;37m16384[0m [01;30m(61 ms)[0m
+2019-01-14 14:42:50,049 [INFO] check miner proc status, pid 5297
+[2019-01-14 14:42:53] [1;37mspeed[0m 10s/60s/15m [1;36m335.49[0m[0;36m 335.52 n/a [0m[1;36mH/s[0m max [1;36m335.60 H/s[0m[0m
+2019/01/14 14:42:54 [INFO] GPU0 t=59C fan=48%, GPU1 t=62C fan=48%, GPU2 t=57C fan=48%, GPU3 t=57C fan=48%, GPU4 t=57C fan=48%, GPU5 t=59C fan=48%
+2019/01/14 14:43:12 [INFO] ETH: 01/14/19-14:43:11 - SHARE FOUND - (GPU 0)
+2019/01/14 14:43:12 [INFO] ETH: Share accepted (28 ms)!
+2019-01-14 14:43:20,050 [INFO] check miner proc status, pid 5297
+2019-01-14 14:43:23,912 [INFO] check miner proc status, pid 5330
+2019/01/14 14:43:24 [INFO] GPU0 t=60C fan=48%, GPU1 t=62C fan=48%, GPU2 t=58C fan=48%, GPU3 t=57C fan=48%, GPU4 t=57C fan=48%, GPU5 t=59C fan=48%
+2019/01/14 14:43:34 [INFO] ETH: 01/14/19-14:43:34 - SHARE FOUND - (GPU 2)
+2019/01/14 14:43:34 [INFO] ETH: Share accepted (30 ms)!
+2019/01/14 14:43:39 [INFO] ETH: 01/14/19-14:43:39 - SHARE FOUND - (GPU 2)
+2019/01/14 14:43:39 [INFO] ETH: Share accepted (27 ms)!
+2019/01/14 14:43:43 [INFO] ETH: 01/14/19-14:43:43 - New job from eth.f2pool.com:8008
+2019/01/14 14:43:43 [INFO] ETH - Total Speed: 185.411 Mh/s, Total Shares: 12, Rejected: 0, Time: 00:04
+2019/01/14 14:43:43 [INFO] ETH: GPU0 31.036 Mh/s, GPU1 31.069 Mh/s, GPU2 30.311 Mh/s, GPU3 31.109 Mh/s, GPU4 31.110 Mh/s, GPU5 30.775 Mh/s
+[2019-01-14 14:43:49] [1;35mnew job[0m from [1;37mxmr.f2pool.com:13531[0m diff [1;37m16384[0m algo [1;37mcn/2[0m[0m
+2019-01-14 14:43:50,050 [INFO] check miner proc status, pid 5297
+[2019-01-14 14:43:53] [1;37mspeed[0m 10s/60s/15m [1;36m335.50[0m[0;36m 335.51 n/a [0m[1;36mH/s[0m max [1;36m335.60 H/s[0m[0m
+2019/01/14 14:43:54 [INFO] GPU0 t=60C fan=48%, GPU1 t=62C fan=48%, GPU2 t=58C fan=48%, GPU3 t=57C fan=48%, GPU4 t=57C fan=48%, GPU5 t=59C fan=48%
+2019/01/14 14:43:56 [INFO] ETH: 01/14/19-14:43:56 - New job from eth.f2pool.com:8008
+2019/01/14 14:43:56 [INFO] ETH - Total Speed: 185.451 Mh/s, Total Shares: 12, Rejected: 0, Time: 00:04
+2019/01/14 14:43:56 [INFO] ETH: GPU0 31.051 Mh/s, GPU1 31.072 Mh/s, GPU2 30.311 Mh/s, GPU3 31.118 Mh/s, GPU4 31.115 Mh/s, GPU5 30.784 Mh/s
+2019/01/14 14:43:57 [INFO] ETH: 01/14/19-14:43:57 - New job from eth.f2pool.com:8008
+2019/01/14 14:43:57 [INFO] ETH - Total Speed: 185.405 Mh/s, Total Shares: 12, Rejected: 0, Time: 00:04
+2019/01/14 14:43:57 [INFO] ETH: GPU0 31.045 Mh/s, GPU1 31.064 Mh/s, GPU2 30.307 Mh/s, GPU3 31.108 Mh/s, GPU4 31.108 Mh/s, GPU5 30.773 Mh/s
+2019/01/14 14:44:16 [INFO] ETH: 01/14/19-14:44:16 - New job from eth.f2pool.com:8008
+2019/01/14 14:44:16 [INFO] ETH - Total Speed: 185.416 Mh/s, Total Shares: 12, Rejected: 0, Time: 00:05
+2019/01/14 14:44:16 [INFO] ETH: GPU0 31.022 Mh/s, GPU1 31.072 Mh/s, GPU2 30.311 Mh/s, GPU3 31.114 Mh/s, GPU4 31.114 Mh/s, GPU5 30.784 Mh/s
+2019/01/14 14:44:17 [INFO] ETH: 01/14/19-14:44:16 - New job from eth.f2pool.com:8008
+2019/01/14 14:44:17 [INFO] ETH - Total Speed: 185.416 Mh/s, Total Shares: 12, Rejected: 0, Time: 00:05
+2019/01/14 14:44:17 [INFO] ETH: GPU0 31.022 Mh/s, GPU1 31.072 Mh/s, GPU2 30.311 Mh/s, GPU3 31.114 Mh/s, GPU4 31.114 Mh/s, GPU5 30.784 Mh/s
+2019-01-14 14:44:20,050 [INFO] check miner proc status, pid 5297
+2019-01-14 14:44:23,883 [INFO] check miner proc status, pid 5330
+2019/01/14 14:44:24 [INFO] GPU0 t=60C fan=48%, GPU1 t=62C fan=48%, GPU2 t=58C fan=48%, GPU3 t=57C fan=48%, GPU4 t=57C fan=48%, GPU5 t=59C fan=48%
+2019/01/14 14:44:28 [INFO] ETH: 01/14/19-14:44:28 - SHARE FOUND - (GPU 5)
+2019/01/14 14:44:28 [INFO] ETH: Share accepted (30 ms)!
+2019/01/14 14:44:36 [INFO] ETH: 01/14/19-14:44:36 - SHARE FOUND - (GPU 2)
+2019/01/14 14:44:36 [INFO] ETH: Share accepted (28 ms)!
+2019/01/14 14:44:38 [INFO] ETH: 01/14/19-14:44:38 - New job from eth.f2pool.com:8008
+2019/01/14 14:44:38 [INFO] ETH - Total Speed: 185.433 Mh/s, Total Shares: 14, Rejected: 0, Time: 00:05
+2019/01/14 14:44:38 [INFO] ETH: GPU0 31.042 Mh/s, GPU1 31.071 Mh/s, GPU2 30.311 Mh/s, GPU3 31.112 Mh/s, GPU4 31.114 Mh/s, GPU5 30.782 Mh/s
+2019/01/14 14:44:39 [INFO] ETH: 01/14/19-14:44:39 - New job from eth.f2pool.com:8008
+2019/01/14 14:44:39 [INFO] ETH - Total Speed: 185.433 Mh/s, Total Shares: 14, Rejected: 0, Time: 00:05
+2019/01/14 14:44:39 [INFO] ETH: GPU0 31.042 Mh/s, GPU1 31.071 Mh/s, GPU2 30.311 Mh/s, GPU3 31.112 Mh/s, GPU4 31.114 Mh/s, GPU5 30.782 Mh/s
+2019/01/14 14:44:42 [INFO] ETH: 01/14/19-14:44:41 - SHARE FOUND - (GPU 1)
+2019/01/14 14:44:42 [INFO] ETH: Share accepted (27 ms)!
+2019/01/14 14:44:49 [INFO] ETH: 01/14/19-14:44:48 - New job from eth.f2pool.com:8008
+2019/01/14 14:44:49 [INFO] ETH - Total Speed: 185.432 Mh/s, Total Shares: 15, Rejected: 0, Time: 00:05
+2019/01/14 14:44:49 [INFO] ETH: GPU0 31.040 Mh/s, GPU1 31.071 Mh/s, GPU2 30.310 Mh/s, GPU3 31.117 Mh/s, GPU4 31.112 Mh/s, GPU5 30.783 Mh/s
+2019/01/14 14:44:49 [INFO] ETH: 01/14/19-14:44:49 - New job from eth.f2pool.com:8008
+2019/01/14 14:44:49 [INFO] ETH - Total Speed: 185.368 Mh/s, Total Shares: 15, Rejected: 0, Time: 00:05
+2019/01/14 14:44:49 [INFO] ETH: GPU0 31.038 Mh/s, GPU1 31.064 Mh/s, GPU2 30.303 Mh/s, GPU3 31.106 Mh/s, GPU4 31.082 Mh/s, GPU5 30.775 Mh/s
+2019-01-14 14:44:50,051 [INFO] check miner proc status, pid 5297
+2019/01/14 14:44:50 [INFO] ETH: 01/14/19-14:44:49 - SHARE FOUND - (GPU 4)
+2019/01/14 14:44:50 [INFO] ETH: Share accepted (28 ms)!
+2019/01/14 14:44:50 [INFO] ETH: 01/14/19-14:44:50 - New job from eth.f2pool.com:8008
+2019/01/14 14:44:50 [INFO] ETH - Total Speed: 185.196 Mh/s, Total Shares: 16, Rejected: 0, Time: 00:05
+2019/01/14 14:44:50 [INFO] ETH: GPU0 30.807 Mh/s, GPU1 31.069 Mh/s, GPU2 30.311 Mh/s, GPU3 31.112 Mh/s, GPU4 31.114 Mh/s, GPU5 30.782 Mh/s
+2019/01/14 14:44:50 [INFO] ETH: 01/14/19-14:44:50 - New job from eth.f2pool.com:8008
+2019/01/14 14:44:50 [INFO] ETH - Total Speed: 185.388 Mh/s, Total Shares: 16, Rejected: 0, Time: 00:05
+2019/01/14 14:44:50 [INFO] ETH: GPU0 31.036 Mh/s, GPU1 31.058 Mh/s, GPU2 30.301 Mh/s, GPU3 31.109 Mh/s, GPU4 31.107 Mh/s, GPU5 30.777 Mh/s
+[2019-01-14 14:44:53] [1;37mspeed[0m 10s/60s/15m [1;36m335.43[0m[0;36m 335.50 n/a [0m[1;36mH/s[0m max [1;36m335.60 H/s[0m[0m
+2019/01/14 14:44:54 [INFO] GPU0 t=60C fan=48%, GPU1 t=62C fan=48%, GPU2 t=58C fan=48%, GPU3 t=56C fan=48%, GPU4 t=57C fan=48%, GPU5 t=60C fan=48%
+2019/01/14 14:45:00 [INFO] ETH: 01/14/19-14:45:00 - New job from eth.f2pool.com:8008
+2019/01/14 14:45:00 [INFO] ETH - Total Speed: 185.430 Mh/s, Total Shares: 16, Rejected: 0, Time: 00:06
+2019/01/14 14:45:00 [INFO] ETH: GPU0 31.040 Mh/s, GPU1 31.069 Mh/s, GPU2 30.310 Mh/s, GPU3 31.111 Mh/s, GPU4 31.116 Mh/s, GPU5 30.785 Mh/s
+2019/01/14 14:45:00 [INFO] ETH: 01/14/19-14:45:00 - New job from eth.f2pool.com:8008
+2019/01/14 14:45:00 [INFO] ETH - Total Speed: 185.430 Mh/s, Total Shares: 16, Rejected: 0, Time: 00:06
+2019/01/14 14:45:00 [INFO] ETH: GPU0 31.040 Mh/s, GPU1 31.069 Mh/s, GPU2 30.310 Mh/s, GPU3 31.111 Mh/s, GPU4 31.116 Mh/s, GPU5 30.785 Mh/s
+2019/01/14 14:45:11 [INFO] ETH: 01/14/19-14:45:10 - New job from eth.f2pool.com:8008
+2019/01/14 14:45:11 [INFO] ETH - Total Speed: 185.421 Mh/s, Total Shares: 16, Rejected: 0, Time: 00:06
+2019/01/14 14:45:11 [INFO] ETH: GPU0 31.025 Mh/s, GPU1 31.069 Mh/s, GPU2 30.310 Mh/s, GPU3 31.117 Mh/s, GPU4 31.115 Mh/s, GPU5 30.785 Mh/s
+2019/01/14 14:45:11 [INFO] ETH: 01/14/19-14:45:11 - New job from eth.f2pool.com:8008
+2019/01/14 14:45:11 [INFO] ETH - Total Speed: 185.421 Mh/s, Total Shares: 16, Rejected: 0, Time: 00:06
+2019/01/14 14:45:11 [INFO] ETH: GPU0 31.025 Mh/s, GPU1 31.069 Mh/s, GPU2 30.310 Mh/s, GPU3 31.117 Mh/s, GPU4 31.115 Mh/s, GPU5 30.785 Mh/s
+2019/01/14 14:45:12 [INFO] ETH: 01/14/19-14:45:11 - SHARE FOUND - (GPU 0)
+2019/01/14 14:45:12 [INFO] ETH: Share accepted (28 ms)!
+2019/01/14 14:45:13 [INFO] ETH: 01/14/19-14:45:13 - New job from eth.f2pool.com:8008
+2019/01/14 14:45:13 [INFO] ETH - Total Speed: 185.422 Mh/s, Total Shares: 17, Rejected: 0, Time: 00:06
+2019/01/14 14:45:13 [INFO] ETH: GPU0 31.027 Mh/s, GPU1 31.071 Mh/s, GPU2 30.310 Mh/s, GPU3 31.118 Mh/s, GPU4 31.115 Mh/s, GPU5 30.780 Mh/s
+2019/01/14 14:45:16 [INFO] ETH: 01/14/19-14:45:16 - New job from eth.f2pool.com:8008
+2019/01/14 14:45:16 [INFO] ETH - Total Speed: 185.426 Mh/s, Total Shares: 17, Rejected: 0, Time: 00:06
+2019/01/14 14:45:16 [INFO] ETH: GPU0 31.032 Mh/s, GPU1 31.072 Mh/s, GPU2 30.309 Mh/s, GPU3 31.115 Mh/s, GPU4 31.116 Mh/s, GPU5 30.783 Mh/s
+2019/01/14 14:45:16 [INFO] ETH: 01/14/19-14:45:16 - New job from eth.f2pool.com:8008
+2019/01/14 14:45:16 [INFO] ETH - Total Speed: 185.426 Mh/s, Total Shares: 17, Rejected: 0, Time: 00:06
+2019/01/14 14:45:16 [INFO] ETH: GPU0 31.032 Mh/s, GPU1 31.072 Mh/s, GPU2 30.309 Mh/s, GPU3 31.115 Mh/s, GPU4 31.116 Mh/s, GPU5 30.783 Mh/s
+2019/01/14 14:45:17 [INFO] ETH: 01/14/19-14:45:17 - New job from eth.f2pool.com:8008
+2019/01/14 14:45:17 [INFO] ETH - Total Speed: 185.428 Mh/s, Total Shares: 17, Rejected: 0, Time: 00:06
+2019/01/14 14:45:17 [INFO] ETH: GPU0 31.029 Mh/s, GPU1 31.072 Mh/s, GPU2 30.311 Mh/s, GPU3 31.116 Mh/s, GPU4 31.116 Mh/s, GPU5 30.784 Mh/s
+2019/01/14 14:45:18 [INFO] ETH: 01/14/19-14:45:17 - New job from eth.f2pool.com:8008
+2019/01/14 14:45:18 [INFO] ETH - Total Speed: 185.428 Mh/s, Total Shares: 17, Rejected: 0, Time: 00:06
+2019/01/14 14:45:18 [INFO] ETH: GPU0 31.029 Mh/s, GPU1 31.072 Mh/s, GPU2 30.311 Mh/s, GPU3 31.116 Mh/s, GPU4 31.116 Mh/s, GPU5 30.784 Mh/s
+2019-01-14 14:45:20,051 [INFO] check miner proc status, pid 5297
+2019/01/14 14:45:23 [INFO] ETH: 01/14/19-14:45:23 - New job from eth.f2pool.com:8008
+2019/01/14 14:45:23 [INFO] ETH - Total Speed: 185.433 Mh/s, Total Shares: 17, Rejected: 0, Time: 00:06
+2019/01/14 14:45:23 [INFO] ETH: GPU0 31.037 Mh/s, GPU1 31.070 Mh/s, GPU2 30.311 Mh/s, GPU3 31.117 Mh/s, GPU4 31.115 Mh/s, GPU5 30.783 Mh/s
+2019-01-14 14:45:23,884 [INFO] check miner proc status, pid 5330
+2019/01/14 14:45:24 [INFO] ETH: 01/14/19-14:45:23 - New job from eth.f2pool.com:8008
+2019/01/14 14:45:24 [INFO] ETH - Total Speed: 185.372 Mh/s, Total Shares: 17, Rejected: 0, Time: 00:06
+2019/01/14 14:45:24 [INFO] ETH: GPU0 31.023 Mh/s, GPU1 31.059 Mh/s, GPU2 30.303 Mh/s, GPU3 31.105 Mh/s, GPU4 31.107 Mh/s, GPU5 30.775 Mh/s
+2019/01/14 14:45:24 [INFO] GPU0 t=60C fan=48%, GPU1 t=62C fan=48%, GPU2 t=58C fan=48%, GPU3 t=56C fan=48%, GPU4 t=57C fan=48%, GPU5 t=60C fan=48%
+2019/01/14 14:45:26 [INFO] ETH: 01/14/19-14:45:26 - New job from eth.f2pool.com:8008
+2019/01/14 14:45:26 [INFO] ETH - Total Speed: 185.421 Mh/s, Total Shares: 17, Rejected: 0, Time: 00:06
+2019/01/14 14:45:26 [INFO] ETH: GPU0 31.019 Mh/s, GPU1 31.071 Mh/s, GPU2 30.309 Mh/s, GPU3 31.123 Mh/s, GPU4 31.115 Mh/s, GPU5 30.783 Mh/s
+2019/01/14 14:45:26 [INFO] ETH: 01/14/19-14:45:26 - New job from eth.f2pool.com:8008
+2019/01/14 14:45:26 [INFO] ETH - Total Speed: 185.421 Mh/s, Total Shares: 17, Rejected: 0, Time: 00:06
+2019/01/14 14:45:26 [INFO] ETH: GPU0 31.019 Mh/s, GPU1 31.071 Mh/s, GPU2 30.309 Mh/s, GPU3 31.123 Mh/s, GPU4 31.115 Mh/s, GPU5 30.783 Mh/s
+2019/01/14 14:45:41 [INFO] ETH: 01/14/19-14:45:41 - SHARE FOUND - (GPU 0)
+2019/01/14 14:45:42 [INFO] ETH: Share accepted (28 ms)!
+2019-01-14 14:45:50,052 [INFO] check miner proc status, pid 5297
+[2019-01-14 14:45:53] [1;37mspeed[0m 10s/60s/15m [1;36m335.50[0m[0;36m 335.49 n/a [0m[1;36mH/s[0m max [1;36m335.60 H/s[0m[0m
+2019/01/14 14:45:54 [INFO] GPU0 t=60C fan=48%, GPU1 t=62C fan=48%, GPU2 t=58C fan=48%, GPU3 t=57C fan=48%, GPU4 t=57C fan=48%, GPU5 t=60C fan=48%
+2019/01/14 14:45:59 [INFO] ETH: 01/14/19-14:45:59 - New job from eth.f2pool.com:8008
+2019/01/14 14:45:59 [INFO] ETH - Total Speed: 185.425 Mh/s, Total Shares: 18, Rejected: 0, Time: 00:06
+2019/01/14 14:45:59 [INFO] ETH: GPU0 31.022 Mh/s, GPU1 31.071 Mh/s, GPU2 30.312 Mh/s, GPU3 31.118 Mh/s, GPU4 31.118 Mh/s, GPU5 30.783 Mh/s
+2019/01/14 14:45:59 [INFO] ETH: 01/14/19-14:45:59 - New job from eth.f2pool.com:8008
+2019/01/14 14:45:59 [INFO] ETH - Total Speed: 185.425 Mh/s, Total Shares: 18, Rejected: 0, Time: 00:06
+2019/01/14 14:45:59 [INFO] ETH: GPU0 31.022 Mh/s, GPU1 31.071 Mh/s, GPU2 30.312 Mh/s, GPU3 31.118 Mh/s, GPU4 31.118 Mh/s, GPU5 30.783 Mh/s
+2019/01/14 14:46:03 [INFO] ETH: 01/14/19-14:46:03 - SHARE FOUND - (GPU 5)
+2019/01/14 14:46:03 [INFO] ETH: Share accepted (27 ms)!
+2019/01/14 14:46:14 [INFO] ETH: 01/14/19-14:46:14 - SHARE FOUND - (GPU 3)
+2019/01/14 14:46:14 [INFO] ETH: Share accepted (28 ms)!
+2019-01-14 14:46:20,052 [INFO] check miner proc status, pid 5297
+2019/01/14 14:46:22 [INFO] ETH: 01/14/19-14:46:22 - New job from eth.f2pool.com:8008
+2019/01/14 14:46:22 [INFO] ETH - Total Speed: 185.418 Mh/s, Total Shares: 20, Rejected: 0, Time: 00:07
+2019/01/14 14:46:22 [INFO] ETH: GPU0 31.021 Mh/s, GPU1 31.073 Mh/s, GPU2 30.314 Mh/s, GPU3 31.119 Mh/s, GPU4 31.109 Mh/s, GPU5 30.783 Mh/s
+2019/01/14 14:46:22 [INFO] ETH: 01/14/19-14:46:22 - New job from eth.f2pool.com:8008
+2019/01/14 14:46:22 [INFO] ETH - Total Speed: 185.376 Mh/s, Total Shares: 20, Rejected: 0, Time: 00:07
+2019/01/14 14:46:22 [INFO] ETH: GPU0 31.018 Mh/s, GPU1 31.062 Mh/s, GPU2 30.305 Mh/s, GPU3 31.107 Mh/s, GPU4 31.106 Mh/s, GPU5 30.778 Mh/s
+2019/01/14 14:46:23 [INFO] ETH: 01/14/19-14:46:23 - SHARE FOUND - (GPU 4)
+2019/01/14 14:46:23 [INFO] ETH: Share accepted (28 ms)!
+2019-01-14 14:46:23,884 [INFO] check miner proc status, pid 5330
+2019/01/14 14:46:24 [INFO] GPU0 t=60C fan=48%, GPU1 t=62C fan=48%, GPU2 t=58C fan=48%, GPU3 t=56C fan=48%, GPU4 t=57C fan=48%, GPU5 t=60C fan=48%
+2019/01/14 14:46:38 [INFO] ETH: 01/14/19-14:46:38 - SHARE FOUND - (GPU 3)
+2019/01/14 14:46:38 [INFO] ETH: Share accepted (28 ms)!
+2019-01-14 14:46:50,052 [INFO] check miner proc status, pid 5297
+2019/01/14 14:46:52 [INFO] ETH: 01/14/19-14:46:51 - New job from eth.f2pool.com:8008
+2019/01/14 14:46:52 [INFO] ETH - Total Speed: 185.417 Mh/s, Total Shares: 22, Rejected: 0, Time: 00:07
+2019/01/14 14:46:52 [INFO] ETH: GPU0 31.017 Mh/s, GPU1 31.070 Mh/s, GPU2 30.311 Mh/s, GPU3 31.118 Mh/s, GPU4 31.116 Mh/s, GPU5 30.784 Mh/s
+2019/01/14 14:46:52 [INFO] ETH: 01/14/19-14:46:52 - New job from eth.f2pool.com:8008
+2019/01/14 14:46:52 [INFO] ETH - Total Speed: 185.417 Mh/s, Total Shares: 22, Rejected: 0, Time: 00:07
+2019/01/14 14:46:52 [INFO] ETH: GPU0 31.017 Mh/s, GPU1 31.070 Mh/s, GPU2 30.311 Mh/s, GPU3 31.118 Mh/s, GPU4 31.116 Mh/s, GPU5 30.784 Mh/s
+[2019-01-14 14:46:53] [1;37mspeed[0m 10s/60s/15m [1;36m335.49[0m[0;36m 335.49 n/a [0m[1;36mH/s[0m max [1;36m335.60 H/s[0m[0m
+2019/01/14 14:46:54 [INFO] GPU0 t=60C fan=48%, GPU1 t=62C fan=48%, GPU2 t=58C fan=48%, GPU3 t=56C fan=48%, GPU4 t=57C fan=48%, GPU5 t=59C fan=48%
+2019/01/14 14:47:00 [INFO] ETH: 01/14/19-14:46:59 - New job from eth.f2pool.com:8008
+2019/01/14 14:47:00 [INFO] ETH - Total Speed: 185.223 Mh/s, Total Shares: 22, Rejected: 0, Time: 00:07
+2019/01/14 14:47:00 [INFO] ETH: GPU0 30.975 Mh/s, GPU1 31.041 Mh/s, GPU2 30.279 Mh/s, GPU3 31.088 Mh/s, GPU4 31.086 Mh/s, GPU5 30.754 Mh/s
+2019/01/14 14:47:00 [INFO] ETH: 01/14/19-14:47:00 - New job from eth.f2pool.com:8008
+2019/01/14 14:47:00 [INFO] ETH - Total Speed: 185.223 Mh/s, Total Shares: 22, Rejected: 0, Time: 00:08
+2019/01/14 14:47:00 [INFO] ETH: GPU0 30.975 Mh/s, GPU1 31.041 Mh/s, GPU2 30.279 Mh/s, GPU3 31.088 Mh/s, GPU4 31.086 Mh/s, GPU5 30.754 Mh/s
+2019/01/14 14:47:06 [INFO] ETH: 01/14/19-14:47:06 - New job from eth.f2pool.com:8008
+2019/01/14 14:47:06 [INFO] ETH - Total Speed: 185.241 Mh/s, Total Shares: 22, Rejected: 0, Time: 00:08
+2019/01/14 14:47:06 [INFO] ETH: GPU0 30.983 Mh/s, GPU1 31.042 Mh/s, GPU2 30.283 Mh/s, GPU3 31.090 Mh/s, GPU4 31.088 Mh/s, GPU5 30.754 Mh/s
+2019/01/14 14:47:06 [INFO] ETH: 01/14/19-14:47:06 - New job from eth.f2pool.com:8008
+2019/01/14 14:47:06 [INFO] ETH - Total Speed: 185.241 Mh/s, Total Shares: 22, Rejected: 0, Time: 00:08
+2019/01/14 14:47:06 [INFO] ETH: GPU0 30.983 Mh/s, GPU1 31.042 Mh/s, GPU2 30.283 Mh/s, GPU3 31.090 Mh/s, GPU4 31.088 Mh/s, GPU5 30.754 Mh/s
+2019/01/14 14:47:12 [INFO] ETH: 01/14/19-14:47:12 - SHARE FOUND - (GPU 5)
+2019/01/14 14:47:12 [INFO] ETH: Share accepted (29 ms)!
+[2019-01-14 14:47:19] [01;32maccepted[0m (5/0) diff [01;37m16384[0m [01;30m(127 ms)[0m
+2019-01-14 14:47:20,053 [INFO] check miner proc status, pid 5297
+2019/01/14 14:47:20 [INFO] ETH: 01/14/19-14:47:19 - SHARE FOUND - (GPU 3)
+2019/01/14 14:47:20 [INFO] ETH: Share accepted (28 ms)!
+2019/01/14 14:47:24 [INFO] GPU0 t=60C fan=48%, GPU1 t=62C fan=48%, GPU2 t=58C fan=48%, GPU3 t=56C fan=48%, GPU4 t=57C fan=48%, GPU5 t=59C fan=48%
+2019/01/14 14:47:25 [INFO] ETH: 01/14/19-14:47:25 - New job from eth.f2pool.com:8008
+2019/01/14 14:47:25 [INFO] ETH - Total Speed: 185.270 Mh/s, Total Shares: 24, Rejected: 0, Time: 00:08
+2019/01/14 14:47:25 [INFO] ETH: GPU0 30.979 Mh/s, GPU1 31.046 Mh/s, GPU2 30.293 Mh/s, GPU3 31.095 Mh/s, GPU4 31.096 Mh/s, GPU5 30.762 Mh/s
+2019/01/14 14:47:25 [INFO] ETH: 01/14/19-14:47:25 - New job from eth.f2pool.com:8008
+2019/01/14 14:47:25 [INFO] ETH - Total Speed: 185.270 Mh/s, Total Shares: 24, Rejected: 0, Time: 00:08
+2019/01/14 14:47:25 [INFO] ETH: GPU0 30.979 Mh/s, GPU1 31.046 Mh/s, GPU2 30.293 Mh/s, GPU3 31.095 Mh/s, GPU4 31.096 Mh/s, GPU5 30.762 Mh/s
+[2019-01-14 14:47:27] [01;32maccepted[0m (6/0) diff [01;37m16384[0m [01;30m(134 ms)[0m
+2019/01/14 14:47:29 [INFO] ETH: 01/14/19-14:47:29 - New job from eth.f2pool.com:8008
+2019/01/14 14:47:29 [INFO] ETH - Total Speed: 185.291 Mh/s, Total Shares: 24, Rejected: 0, Time: 00:08
+2019/01/14 14:47:29 [INFO] ETH: GPU0 30.999 Mh/s, GPU1 31.048 Mh/s, GPU2 30.293 Mh/s, GPU3 31.094 Mh/s, GPU4 31.095 Mh/s, GPU5 30.763 Mh/s
+2019/01/14 14:47:29 [INFO] ETH: 01/14/19-14:47:29 - New job from eth.f2pool.com:8008
+2019/01/14 14:47:29 [INFO] ETH - Total Speed: 185.291 Mh/s, Total Shares: 24, Rejected: 0, Time: 00:08
+2019/01/14 14:47:29 [INFO] ETH: GPU0 30.999 Mh/s, GPU1 31.048 Mh/s, GPU2 30.293 Mh/s, GPU3 31.094 Mh/s, GPU4 31.095 Mh/s, GPU5 30.763 Mh/s
+2019/01/14 14:47:41 [INFO] ETH: 01/14/19-14:47:41 - SHARE FOUND - (GPU 1)
+2019/01/14 14:47:42 [INFO] ETH: Share accepted (28 ms)!
+2019-01-14 14:47:50,053 [INFO] check miner proc status, pid 5297
+[2019-01-14 14:47:53] [1;37mspeed[0m 10s/60s/15m [1;36m335.47[0m[0;36m 334.82 n/a [0m[1;36mH/s[0m max [1;36m335.60 H/s[0m[0m
+2019/01/14 14:47:54 [INFO] ETH: 01/14/19-14:47:53 - New job from eth.f2pool.com:8008
+2019/01/14 14:47:54 [INFO] ETH - Total Speed: 185.325 Mh/s, Total Shares: 25, Rejected: 0, Time: 00:08
+2019/01/14 14:47:54 [INFO] ETH: GPU0 31.002 Mh/s, GPU1 31.050 Mh/s, GPU2 30.303 Mh/s, GPU3 31.100 Mh/s, GPU4 31.103 Mh/s, GPU5 30.768 Mh/s
+2019/01/14 14:47:54 [INFO] ETH: 01/14/19-14:47:54 - New job from eth.f2pool.com:8008
+2019/01/14 14:47:54 [INFO] ETH - Total Speed: 185.325 Mh/s, Total Shares: 25, Rejected: 0, Time: 00:08
+2019/01/14 14:47:54 [INFO] ETH: GPU0 31.002 Mh/s, GPU1 31.050 Mh/s, GPU2 30.303 Mh/s, GPU3 31.100 Mh/s, GPU4 31.103 Mh/s, GPU5 30.768 Mh/s
+2019/01/14 14:47:54 [INFO] GPU0 t=60C fan=48%, GPU1 t=62C fan=48%, GPU2 t=58C fan=48%, GPU3 t=56C fan=48%, GPU4 t=57C fan=48%, GPU5 t=59C fan=48%
+[2019-01-14 14:47:54] [01;32maccepted[0m (7/0) diff [01;37m16384[0m [01;30m(393 ms)[0m
+2019/01/14 14:48:11 [INFO] ETH: 01/14/19-14:48:11 - SHARE FOUND - (GPU 4)
+2019/01/14 14:48:11 [INFO] ETH: Share accepted (33 ms)!
+2019/01/14 14:48:13 [INFO] ETH: 01/14/19-14:48:12 - New job from eth.f2pool.com:8008
+2019/01/14 14:48:13 [INFO] ETH - Total Speed: 185.357 Mh/s, Total Shares: 26, Rejected: 0, Time: 00:09
+2019/01/14 14:48:13 [INFO] ETH: GPU0 31.017 Mh/s, GPU1 31.059 Mh/s, GPU2 30.301 Mh/s, GPU3 31.104 Mh/s, GPU4 31.102 Mh/s, GPU5 30.774 Mh/s
+2019/01/14 14:48:13 [INFO] ETH: 01/14/19-14:48:13 - New job from eth.f2pool.com:8008
+2019/01/14 14:48:13 [INFO] ETH - Total Speed: 185.273 Mh/s, Total Shares: 26, Rejected: 0, Time: 00:09
+2019/01/14 14:48:13 [INFO] ETH: GPU0 30.989 Mh/s, GPU1 31.047 Mh/s, GPU2 30.293 Mh/s, GPU3 31.090 Mh/s, GPU4 31.092 Mh/s, GPU5 30.761 Mh/s
+2019/01/14 14:48:16 [INFO] ETH: 01/14/19-14:48:16 - New job from eth.f2pool.com:8008
+2019/01/14 14:48:16 [INFO] ETH - Total Speed: 185.353 Mh/s, Total Shares: 26, Rejected: 0, Time: 00:09
+2019/01/14 14:48:16 [INFO] ETH: GPU0 31.023 Mh/s, GPU1 31.056 Mh/s, GPU2 30.298 Mh/s, GPU3 31.103 Mh/s, GPU4 31.102 Mh/s, GPU5 30.772 Mh/s
+2019/01/14 14:48:16 [INFO] ETH: 01/14/19-14:48:16 - New job from eth.f2pool.com:8008
+2019/01/14 14:48:16 [INFO] ETH - Total Speed: 185.308 Mh/s, Total Shares: 26, Rejected: 0, Time: 00:09
+2019/01/14 14:48:16 [INFO] ETH: GPU0 31.016 Mh/s, GPU1 31.050 Mh/s, GPU2 30.291 Mh/s, GPU3 31.093 Mh/s, GPU4 31.094 Mh/s, GPU5 30.764 Mh/s
+2019-01-14 14:48:20,054 [INFO] check miner proc status, pid 5297
+2019/01/14 14:48:24 [INFO] GPU0 t=60C fan=48%, GPU1 t=62C fan=48%, GPU2 t=58C fan=48%, GPU3 t=56C fan=48%, GPU4 t=57C fan=48%, GPU5 t=59C fan=48%
+2019-01-14 14:48:24,743 [INFO] check miner proc status, pid 5330
+2019/01/14 14:48:27 [INFO] ETH: 01/14/19-14:48:26 - New job from eth.f2pool.com:8008
+2019/01/14 14:48:27 [INFO] ETH - Total Speed: 185.379 Mh/s, Total Shares: 26, Rejected: 0, Time: 00:09
+2019/01/14 14:48:27 [INFO] ETH: GPU0 31.027 Mh/s, GPU1 31.060 Mh/s, GPU2 30.303 Mh/s, GPU3 31.108 Mh/s, GPU4 31.107 Mh/s, GPU5 30.774 Mh/s
+2019/01/14 14:48:27 [INFO] ETH: 01/14/19-14:48:26 - New job from eth.f2pool.com:8008
+2019/01/14 14:48:27 [INFO] ETH - Total Speed: 185.379 Mh/s, Total Shares: 26, Rejected: 0, Time: 00:09
+2019/01/14 14:48:27 [INFO] ETH: GPU0 31.027 Mh/s, GPU1 31.060 Mh/s, GPU2 30.303 Mh/s, GPU3 31.108 Mh/s, GPU4 31.107 Mh/s, GPU5 30.774 Mh/s
+2019/01/14 14:48:42 [INFO] ETH: 01/14/19-14:48:42 - New job from eth.f2pool.com:8008
+2019/01/14 14:48:42 [INFO] ETH - Total Speed: 185.392 Mh/s, Total Shares: 26, Rejected: 0, Time: 00:09
+2019/01/14 14:48:42 [INFO] ETH: GPU0 31.031 Mh/s, GPU1 31.060 Mh/s, GPU2 30.305 Mh/s, GPU3 31.108 Mh/s, GPU4 31.110 Mh/s, GPU5 30.778 Mh/s
+2019/01/14 14:48:42 [INFO] ETH: 01/14/19-14:48:42 - New job from eth.f2pool.com:8008
+2019/01/14 14:48:42 [INFO] ETH - Total Speed: 185.392 Mh/s, Total Shares: 26, Rejected: 0, Time: 00:09
+2019/01/14 14:48:42 [INFO] ETH: GPU0 31.031 Mh/s, GPU1 31.060 Mh/s, GPU2 30.305 Mh/s, GPU3 31.108 Mh/s, GPU4 31.110 Mh/s, GPU5 30.778 Mh/s
+2019/01/14 14:48:42 [INFO] ETH: 01/14/19-14:48:42 - New job from eth.f2pool.com:8008
+2019/01/14 14:48:42 [INFO] ETH - Total Speed: 185.392 Mh/s, Total Shares: 26, Rejected: 0, Time: 00:09
+2019/01/14 14:48:42 [INFO] ETH: GPU0 31.031 Mh/s, GPU1 31.060 Mh/s, GPU2 30.305 Mh/s, GPU3 31.108 Mh/s, GPU4 31.110 Mh/s, GPU5 30.778 Mh/s
+2019-01-14 14:48:50,054 [INFO] check miner proc status, pid 5297
+[2019-01-14 14:48:53] [1;37mspeed[0m 10s/60s/15m [1;36m335.46[0m[0;36m 335.50 n/a [0m[1;36mH/s[0m max [1;36m335.60 H/s[0m[0m
+2019/01/14 14:48:54 [INFO] GPU0 t=60C fan=48%, GPU1 t=61C fan=48%, GPU2 t=58C fan=48%, GPU3 t=56C fan=48%, GPU4 t=57C fan=48%, GPU5 t=59C fan=48%
+2019/01/14 14:48:59 [INFO] ETH: 01/14/19-14:48:59 - SHARE FOUND - (GPU 5)
+2019/01/14 14:48:59 [INFO] ETH: Share accepted (28 ms)!
+2019/01/14 14:49:01 [INFO] ETH: 01/14/19-14:49:01 - New job from eth.f2pool.com:8008
+2019/01/14 14:49:01 [INFO] ETH - Total Speed: 185.375 Mh/s, Total Shares: 27, Rejected: 0, Time: 00:10
+2019/01/14 14:49:01 [INFO] ETH: GPU0 31.020 Mh/s, GPU1 31.058 Mh/s, GPU2 30.304 Mh/s, GPU3 31.108 Mh/s, GPU4 31.112 Mh/s, GPU5 30.773 Mh/s
+2019/01/14 14:49:01 [INFO] ETH: 01/14/19-14:49:01 - New job from eth.f2pool.com:8008
+2019/01/14 14:49:01 [INFO] ETH - Total Speed: 185.375 Mh/s, Total Shares: 27, Rejected: 0, Time: 00:10
+2019/01/14 14:49:01 [INFO] ETH: GPU0 31.020 Mh/s, GPU1 31.058 Mh/s, GPU2 30.304 Mh/s, GPU3 31.108 Mh/s, GPU4 31.112 Mh/s, GPU5 30.773 Mh/s
+[2019-01-14 14:49:12] [1;35mnew job[0m from [1;37mxmr.f2pool.com:13531[0m diff [1;37m32768[0m algo [1;37mcn/2[0m[0m
+[2019-01-14 14:49:16] [1;35mnew job[0m from [1;37mxmr.f2pool.com:13531[0m diff [1;37m16384[0m algo [1;37mcn/2[0m[0m
+2019-01-14 14:49:20,054 [INFO] check miner proc status, pid 5297
+2019/01/14 14:49:22 [INFO] ETH: 01/14/19-14:49:22 - New job from eth.f2pool.com:8008
+2019/01/14 14:49:22 [INFO] ETH - Total Speed: 185.377 Mh/s, Total Shares: 27, Rejected: 0, Time: 00:10
+2019/01/14 14:49:22 [INFO] ETH: GPU0 31.010 Mh/s, GPU1 31.061 Mh/s, GPU2 30.304 Mh/s, GPU3 31.116 Mh/s, GPU4 31.111 Mh/s, GPU5 30.776 Mh/s
+2019/01/14 14:49:22 [INFO] ETH: 01/14/19-14:49:22 - New job from eth.f2pool.com:8008
+2019/01/14 14:49:22 [INFO] ETH - Total Speed: 185.344 Mh/s, Total Shares: 27, Rejected: 0, Time: 00:10
+2019/01/14 14:49:22 [INFO] ETH: GPU0 31.025 Mh/s, GPU1 31.055 Mh/s, GPU2 30.301 Mh/s, GPU3 31.097 Mh/s, GPU4 31.099 Mh/s, GPU5 30.768 Mh/s
+2019/01/14 14:49:24 [INFO] GPU0 t=59C fan=48%, GPU1 t=61C fan=48%, GPU2 t=58C fan=48%, GPU3 t=56C fan=48%, GPU4 t=57C fan=48%, GPU5 t=59C fan=48%
+2019/01/14 14:49:33 [INFO] ETH: 01/14/19-14:49:33 - New job from eth.f2pool.com:8008
+2019/01/14 14:49:33 [INFO] ETH - Total Speed: 185.387 Mh/s, Total Shares: 27, Rejected: 0, Time: 00:10
+2019/01/14 14:49:33 [INFO] ETH: GPU0 31.016 Mh/s, GPU1 31.062 Mh/s, GPU2 30.310 Mh/s, GPU3 31.113 Mh/s, GPU4 31.111 Mh/s, GPU5 30.775 Mh/s
+2019/01/14 14:49:34 [INFO] ETH: 01/14/19-14:49:33 - New job from eth.f2pool.com:8008
+2019/01/14 14:49:34 [INFO] ETH - Total Speed: 185.387 Mh/s, Total Shares: 27, Rejected: 0, Time: 00:10
+2019/01/14 14:49:34 [INFO] ETH: GPU0 31.016 Mh/s, GPU1 31.062 Mh/s, GPU2 30.310 Mh/s, GPU3 31.113 Mh/s, GPU4 31.111 Mh/s, GPU5 30.775 Mh/s
+[2019-01-14 14:49:34] [01;32maccepted[0m (8/0) diff [01;37m16384[0m [01;30m(93 ms)[0m
+2019/01/14 14:49:35 [INFO] ETH: 01/14/19-14:49:35 - SHARE FOUND - (GPU 3)
+2019/01/14 14:49:35 [INFO] ETH: Share accepted (29 ms)!
+2019/01/14 14:49:38 [INFO] ETH: 01/14/19-14:49:38 - New job from eth.f2pool.com:8008
+2019/01/14 14:49:38 [INFO] ETH - Total Speed: 185.397 Mh/s, Total Shares: 28, Rejected: 0, Time: 00:10
+2019/01/14 14:49:38 [INFO] ETH: GPU0 31.025 Mh/s, GPU1 31.062 Mh/s, GPU2 30.308 Mh/s, GPU3 31.110 Mh/s, GPU4 31.113 Mh/s, GPU5 30.778 Mh/s
+2019/01/14 14:49:39 [INFO] ETH: 01/14/19-14:49:38 - New job from eth.f2pool.com:8008
+2019/01/14 14:49:39 [INFO] ETH - Total Speed: 185.356 Mh/s, Total Shares: 28, Rejected: 0, Time: 00:10
+2019/01/14 14:49:39 [INFO] ETH: GPU0 31.020 Mh/s, GPU1 31.055 Mh/s, GPU2 30.302 Mh/s, GPU3 31.105 Mh/s, GPU4 31.104 Mh/s, GPU5 30.771 Mh/s
+[2019-01-14 14:49:43] [01;32maccepted[0m (9/0) diff [01;37m16384[0m [01;30m(58 ms)[0m
+2019/01/14 14:49:48 [INFO] ETH: 01/14/19-14:49:48 - New job from eth.f2pool.com:8008
+2019/01/14 14:49:48 [INFO] ETH - Total Speed: 185.394 Mh/s, Total Shares: 28, Rejected: 0, Time: 00:10
+2019/01/14 14:49:48 [INFO] ETH: GPU0 31.021 Mh/s, GPU1 31.061 Mh/s, GPU2 30.310 Mh/s, GPU3 31.112 Mh/s, GPU4 31.113 Mh/s, GPU5 30.776 Mh/s
+2019/01/14 14:49:48 [INFO] ETH: 01/14/19-14:49:48 - New job from eth.f2pool.com:8008
+2019/01/14 14:49:48 [INFO] ETH - Total Speed: 185.394 Mh/s, Total Shares: 28, Rejected: 0, Time: 00:10
+2019/01/14 14:49:48 [INFO] ETH: GPU0 31.021 Mh/s, GPU1 31.061 Mh/s, GPU2 30.310 Mh/s, GPU3 31.112 Mh/s, GPU4 31.113 Mh/s, GPU5 30.776 Mh/s
+2019/01/14 14:49:48 [INFO] ETH: 01/14/19-14:49:48 - New job from eth.f2pool.com:8008
+2019/01/14 14:49:48 [INFO] ETH - Total Speed: 185.394 Mh/s, Total Shares: 28, Rejected: 0, Time: 00:10
+2019/01/14 14:49:48 [INFO] ETH: GPU0 31.021 Mh/s, GPU1 31.061 Mh/s, GPU2 30.310 Mh/s, GPU3 31.112 Mh/s, GPU4 31.113 Mh/s, GPU5 30.776 Mh/s
+2019/01/14 14:49:50 [INFO] ETH: 01/14/19-14:49:49 - SHARE FOUND - (GPU 5)
+2019/01/14 14:49:50 [INFO] ETH: Share accepted (29 ms)!
+2019-01-14 14:49:50,055 [INFO] check miner proc status, pid 5297
+[2019-01-14 14:49:53] [1;37mspeed[0m 10s/60s/15m [1;36m335.46[0m[0;36m 335.51 n/a [0m[1;36mH/s[0m max [1;36m335.61 H/s[0m[0m
+2019/01/14 14:49:54 [INFO] GPU0 t=60C fan=48%, GPU1 t=62C fan=48%, GPU2 t=58C fan=48%, GPU3 t=56C fan=48%, GPU4 t=57C fan=48%, GPU5 t=59C fan=48%
+2019/01/14 14:49:56 [INFO] ETH: 01/14/19-14:49:56 - New job from eth.f2pool.com:8008
+2019/01/14 14:49:56 [INFO] ETH - Total Speed: 185.412 Mh/s, Total Shares: 29, Rejected: 0, Time: 00:10
+2019/01/14 14:49:56 [INFO] ETH: GPU0 31.032 Mh/s, GPU1 31.065 Mh/s, GPU2 30.310 Mh/s, GPU3 31.115 Mh/s, GPU4 31.111 Mh/s, GPU5 30.779 Mh/s
+2019/01/14 14:49:56 [INFO] ETH: 01/14/19-14:49:56 - New job from eth.f2pool.com:8008
+2019/01/14 14:49:56 [INFO] ETH - Total Speed: 185.412 Mh/s, Total Shares: 29, Rejected: 0, Time: 00:10
+2019/01/14 14:49:56 [INFO] ETH: GPU0 31.032 Mh/s, GPU1 31.065 Mh/s, GPU2 30.310 Mh/s, GPU3 31.115 Mh/s, GPU4 31.111 Mh/s, GPU5 30.779 Mh/s
+[2019-01-14 14:50:06] [1;35mnew job[0m from [1;37mxmr.f2pool.com:13531[0m diff [1;37m32768[0m algo [1;37mcn/2[0m[0m
+2019/01/14 14:50:07 [INFO] ETH: 01/14/19-14:50:07 - New job from eth.f2pool.com:8008
+2019/01/14 14:50:07 [INFO] ETH - Total Speed: 185.413 Mh/s, Total Shares: 29, Rejected: 0, Time: 00:11
+2019/01/14 14:50:07 [INFO] ETH: GPU0 31.033 Mh/s, GPU1 31.064 Mh/s, GPU2 30.311 Mh/s, GPU3 31.116 Mh/s, GPU4 31.113 Mh/s, GPU5 30.777 Mh/s
+2019/01/14 14:50:07 [INFO] ETH: 01/14/19-14:50:07 - New job from eth.f2pool.com:8008
+2019/01/14 14:50:07 [INFO] ETH - Total Speed: 185.413 Mh/s, Total Shares: 29, Rejected: 0, Time: 00:11
+2019/01/14 14:50:07 [INFO] ETH: GPU0 31.033 Mh/s, GPU1 31.064 Mh/s, GPU2 30.311 Mh/s, GPU3 31.116 Mh/s, GPU4 31.113 Mh/s, GPU5 30.777 Mh/s
+2019-01-14 14:50:20,055 [INFO] check miner proc status, pid 5297
+2019/01/14 14:50:24 [INFO] GPU0 t=60C fan=48%, GPU1 t=62C fan=48%, GPU2 t=58C fan=48%, GPU3 t=56C fan=48%, GPU4 t=57C fan=48%, GPU5 t=59C fan=48%
+2019/01/14 14:50:32 [INFO] ETH: 01/14/19-14:50:32 - SHARE FOUND - (GPU 5)
+2019/01/14 14:50:32 [INFO] ETH: Share accepted (29 ms)!
+2019/01/14 14:50:33 [INFO] ETH: 01/14/19-14:50:33 - New job from eth.f2pool.com:8008
+2019/01/14 14:50:33 [INFO] ETH - Total Speed: 185.375 Mh/s, Total Shares: 30, Rejected: 0, Time: 00:11
+2019/01/14 14:50:33 [INFO] ETH: GPU0 31.008 Mh/s, GPU1 31.063 Mh/s, GPU2 30.306 Mh/s, GPU3 31.113 Mh/s, GPU4 31.110 Mh/s, GPU5 30.776 Mh/s
+2019/01/14 14:50:33 [INFO] ETH: 01/14/19-14:50:33 - New job from eth.f2pool.com:8008
+2019/01/14 14:50:33 [INFO] ETH - Total Speed: 185.375 Mh/s, Total Shares: 30, Rejected: 0, Time: 00:11
+2019/01/14 14:50:33 [INFO] ETH: GPU0 31.008 Mh/s, GPU1 31.063 Mh/s, GPU2 30.306 Mh/s, GPU3 31.113 Mh/s, GPU4 31.110 Mh/s, GPU5 30.776 Mh/s
+2019-01-14 14:50:36,948 [INFO] check miner proc status, pid 5330
+2019/01/14 14:50:44 [INFO] ETH: 01/14/19-14:50:44 - New job from eth.f2pool.com:8008
+2019/01/14 14:50:44 [INFO] ETH - Total Speed: 185.395 Mh/s, Total Shares: 30, Rejected: 0, Time: 00:11
+2019/01/14 14:50:44 [INFO] ETH: GPU0 31.020 Mh/s, GPU1 31.067 Mh/s, GPU2 30.309 Mh/s, GPU3 31.116 Mh/s, GPU4 31.109 Mh/s, GPU5 30.774 Mh/s
+2019/01/14 14:50:45 [INFO] ETH: 01/14/19-14:50:44 - New job from eth.f2pool.com:8008
+2019/01/14 14:50:45 [INFO] ETH - Total Speed: 185.330 Mh/s, Total Shares: 30, Rejected: 0, Time: 00:11
+2019/01/14 14:50:45 [INFO] ETH: GPU0 31.002 Mh/s, GPU1 31.055 Mh/s, GPU2 30.297 Mh/s, GPU3 31.106 Mh/s, GPU4 31.100 Mh/s, GPU5 30.770 Mh/s
+2019-01-14 14:50:50,055 [INFO] check miner proc status, pid 5297
+[2019-01-14 14:50:53] [1;37mspeed[0m 10s/60s/15m [1;36m335.48[0m[0;36m 335.51 n/a [0m[1;36mH/s[0m max [1;36m335.61 H/s[0m[0m
+2019/01/14 14:50:54 [INFO] GPU0 t=60C fan=48%, GPU1 t=61C fan=48%, GPU2 t=58C fan=48%, GPU3 t=56C fan=48%, GPU4 t=56C fan=48%, GPU5 t=59C fan=48%
+2019/01/14 14:50:56 [INFO] ETH: 01/14/19-14:50:56 - New job from eth.f2pool.com:8008
+2019/01/14 14:50:56 [INFO] ETH - Total Speed: 185.409 Mh/s, Total Shares: 30, Rejected: 0, Time: 00:11
+2019/01/14 14:50:56 [INFO] ETH: GPU0 31.024 Mh/s, GPU1 31.064 Mh/s, GPU2 30.309 Mh/s, GPU3 31.116 Mh/s, GPU4 31.113 Mh/s, GPU5 30.783 Mh/s
+2019/01/14 14:50:57 [INFO] ETH: 01/14/19-14:50:57 - New job from eth.f2pool.com:8008
+2019/01/14 14:50:57 [INFO] ETH - Total Speed: 185.354 Mh/s, Total Shares: 30, Rejected: 0, Time: 00:11
+2019/01/14 14:50:57 [INFO] ETH: GPU0 31.025 Mh/s, GPU1 31.056 Mh/s, GPU2 30.302 Mh/s, GPU3 31.104 Mh/s, GPU4 31.101 Mh/s, GPU5 30.767 Mh/s
+[2019-01-14 14:50:58] [1;35mnew job[0m from [1;37mxmr.f2pool.com:13531[0m diff [1;37m16384[0m algo [1;37mcn/2[0m[0m
+2019/01/14 14:51:02 [INFO] ETH: 01/14/19-14:51:02 - New job from eth.f2pool.com:8008
+2019/01/14 14:51:02 [INFO] ETH - Total Speed: 185.395 Mh/s, Total Shares: 30, Rejected: 0, Time: 00:12
+2019/01/14 14:51:02 [INFO] ETH: GPU0 31.013 Mh/s, GPU1 31.065 Mh/s, GPU2 30.309 Mh/s, GPU3 31.115 Mh/s, GPU4 31.111 Mh/s, GPU5 30.781 Mh/s
+2019/01/14 14:51:03 [INFO] ETH: 01/14/19-14:51:03 - New job from eth.f2pool.com:8008
+2019/01/14 14:51:03 [INFO] ETH - Total Speed: 185.345 Mh/s, Total Shares: 30, Rejected: 0, Time: 00:12
+2019/01/14 14:51:03 [INFO] ETH: GPU0 31.012 Mh/s, GPU1 31.059 Mh/s, GPU2 30.299 Mh/s, GPU3 31.104 Mh/s, GPU4 31.105 Mh/s, GPU5 30.768 Mh/s
+2019/01/14 14:51:06 [INFO] ETH: 01/14/19-14:51:06 - New job from eth.f2pool.com:8008
+2019/01/14 14:51:06 [INFO] ETH - Total Speed: 185.415 Mh/s, Total Shares: 30, Rejected: 0, Time: 00:12
+2019/01/14 14:51:06 [INFO] ETH: GPU0 31.027 Mh/s, GPU1 31.066 Mh/s, GPU2 30.309 Mh/s, GPU3 31.117 Mh/s, GPU4 31.113 Mh/s, GPU5 30.783 Mh/s
+2019/01/14 14:51:09 [INFO] ETH: 01/14/19-14:51:08 - New job from eth.f2pool.com:8008
+2019/01/14 14:51:09 [INFO] ETH - Total Speed: 185.408 Mh/s, Total Shares: 30, Rejected: 0, Time: 00:12
+2019/01/14 14:51:09 [INFO] ETH: GPU0 31.020 Mh/s, GPU1 31.065 Mh/s, GPU2 30.311 Mh/s, GPU3 31.116 Mh/s, GPU4 31.115 Mh/s, GPU5 30.780 Mh/s
+2019/01/14 14:51:09 [INFO] ETH: 01/14/19-14:51:09 - New job from eth.f2pool.com:8008
+2019/01/14 14:51:09 [INFO] ETH - Total Speed: 185.408 Mh/s, Total Shares: 30, Rejected: 0, Time: 00:12
+2019/01/14 14:51:09 [INFO] ETH: GPU0 31.020 Mh/s, GPU1 31.065 Mh/s, GPU2 30.311 Mh/s, GPU3 31.116 Mh/s, GPU4 31.115 Mh/s, GPU5 30.780 Mh/s
+2019-01-14 14:51:20,056 [INFO] check miner proc status, pid 5297
+2019/01/14 14:51:24 [INFO] GPU0 t=60C fan=48%, GPU1 t=62C fan=48%, GPU2 t=58C fan=48%, GPU3 t=55C fan=48%, GPU4 t=56C fan=48%, GPU5 t=59C fan=48%
+2019/01/14 14:51:26 [INFO] ETH: 01/14/19-14:51:26 - SHARE FOUND - (GPU 4)
+2019/01/14 14:51:26 [INFO] ETH: Share accepted (28 ms)!
+2019-01-14 14:51:28,859 [INFO] check miner proc status, pid 5330
+2019/01/14 14:51:36 [INFO] ETH: 01/14/19-14:51:36 - SHARE FOUND - (GPU 1)
+2019/01/14 14:51:36 [INFO] ETH: Share accepted (28 ms)!
+2019-01-14 14:51:50,056 [INFO] check miner proc status, pid 5297
+[2019-01-14 14:51:51] [1;35mnew job[0m from [1;37mxmr.f2pool.com:13531[0m diff [1;37m16384[0m algo [1;37mcn/2[0m[0m
+[2019-01-14 14:51:53] [1;37mspeed[0m 10s/60s/15m [1;36m335.43[0m[0;36m 335.48 n/a [0m[1;36mH/s[0m max [1;36m335.61 H/s[0m[0m
+2019/01/14 14:51:54 [INFO] ETH: 01/14/19-14:51:53 - New job from eth.f2pool.com:8008
+2019/01/14 14:51:54 [INFO] ETH - Total Speed: 185.419 Mh/s, Total Shares: 32, Rejected: 0, Time: 00:12
+2019/01/14 14:51:54 [INFO] ETH: GPU0 31.043 Mh/s, GPU1 31.061 Mh/s, GPU2 30.308 Mh/s, GPU3 31.115 Mh/s, GPU4 31.111 Mh/s, GPU5 30.781 Mh/s
+2019/01/14 14:51:54 [INFO] ETH: 01/14/19-14:51:54 - New job from eth.f2pool.com:8008
+2019/01/14 14:51:54 [INFO] ETH - Total Speed: 185.419 Mh/s, Total Shares: 32, Rejected: 0, Time: 00:12
+2019/01/14 14:51:54 [INFO] ETH: GPU0 31.043 Mh/s, GPU1 31.061 Mh/s, GPU2 30.308 Mh/s, GPU3 31.115 Mh/s, GPU4 31.111 Mh/s, GPU5 30.781 Mh/s
+2019/01/14 14:51:54 [INFO] GPU0 t=60C fan=48%, GPU1 t=61C fan=48%, GPU2 t=57C fan=48%, GPU3 t=56C fan=48%, GPU4 t=56C fan=48%, GPU5 t=59C fan=48%
+2019/01/14 14:51:58 [INFO] ETH: 01/14/19-14:51:57 - New job from eth.f2pool.com:8008
+2019/01/14 14:51:58 [INFO] ETH - Total Speed: 185.389 Mh/s, Total Shares: 32, Rejected: 0, Time: 00:12
+2019/01/14 14:51:58 [INFO] ETH: GPU0 31.017 Mh/s, GPU1 31.063 Mh/s, GPU2 30.307 Mh/s, GPU3 31.113 Mh/s, GPU4 31.112 Mh/s, GPU5 30.777 Mh/s
+2019/01/14 14:51:58 [INFO] ETH: 01/14/19-14:51:58 - New job from eth.f2pool.com:8008
+2019/01/14 14:51:58 [INFO] ETH - Total Speed: 185.319 Mh/s, Total Shares: 32, Rejected: 0, Time: 00:12
+2019/01/14 14:51:58 [INFO] ETH: GPU0 31.006 Mh/s, GPU1 31.040 Mh/s, GPU2 30.302 Mh/s, GPU3 31.102 Mh/s, GPU4 31.100 Mh/s, GPU5 30.769 Mh/s
+2019/01/14 14:52:01 [INFO] ETH: 01/14/19-14:52:01 - SHARE FOUND - (GPU 2)
+2019/01/14 14:52:01 [INFO] ETH: Share accepted (28 ms)!
+2019/01/14 14:52:07 [INFO] ETH: 01/14/19-14:52:07 - SHARE FOUND - (GPU 2)
+2019/01/14 14:52:07 [INFO] ETH: Share accepted (29 ms)!
+2019/01/14 14:52:14 [INFO] ETH: 01/14/19-14:52:14 - SHARE FOUND - (GPU 1)
+2019/01/14 14:52:14 [INFO] ETH: Share accepted (28 ms)!
+2019-01-14 14:52:20,057 [INFO] check miner proc status, pid 5297
+2019/01/14 14:52:21 [INFO] ETH: 01/14/19-14:52:20 - New job from eth.f2pool.com:8008
+2019/01/14 14:52:21 [INFO] ETH - Total Speed: 185.397 Mh/s, Total Shares: 35, Rejected: 0, Time: 00:13
+2019/01/14 14:52:21 [INFO] ETH: GPU0 31.029 Mh/s, GPU1 31.061 Mh/s, GPU2 30.308 Mh/s, GPU3 31.113 Mh/s, GPU4 31.109 Mh/s, GPU5 30.778 Mh/s
+2019/01/14 14:52:21 [INFO] ETH: 01/14/19-14:52:21 - New job from eth.f2pool.com:8008
+2019/01/14 14:52:21 [INFO] ETH - Total Speed: 185.397 Mh/s, Total Shares: 35, Rejected: 0, Time: 00:13
+2019/01/14 14:52:21 [INFO] ETH: GPU0 31.029 Mh/s, GPU1 31.061 Mh/s, GPU2 30.308 Mh/s, GPU3 31.113 Mh/s, GPU4 31.109 Mh/s, GPU5 30.778 Mh/s
+2019-01-14 14:52:23,874 [INFO] check miner proc status, pid 5330
+2019/01/14 14:52:24 [INFO] GPU0 t=60C fan=48%, GPU1 t=61C fan=48%, GPU2 t=57C fan=48%, GPU3 t=56C fan=48%, GPU4 t=56C fan=48%, GPU5 t=59C fan=48%
+2019/01/14 14:52:31 [INFO] ETH: 01/14/19-14:52:31 - SHARE FOUND - (GPU 3)
+2019/01/14 14:52:31 [INFO] ETH: Share accepted (29 ms)!
+2019/01/14 14:52:40 [INFO] ETH: 01/14/19-14:52:40 - New job from eth.f2pool.com:8008
+2019/01/14 14:52:40 [INFO] ETH - Total Speed: 185.411 Mh/s, Total Shares: 36, Rejected: 0, Time: 00:13
+2019/01/14 14:52:40 [INFO] ETH: GPU0 31.036 Mh/s, GPU1 31.065 Mh/s, GPU2 30.309 Mh/s, GPU3 31.117 Mh/s, GPU4 31.110 Mh/s, GPU5 30.775 Mh/s
+2019/01/14 14:52:40 [INFO] ETH: 01/14/19-14:52:40 - New job from eth.f2pool.com:8008
+2019/01/14 14:52:40 [INFO] ETH - Total Speed: 185.361 Mh/s, Total Shares: 36, Rejected: 0, Time: 00:13
+2019/01/14 14:52:40 [INFO] ETH: GPU0 31.034 Mh/s, GPU1 31.052 Mh/s, GPU2 30.300 Mh/s, GPU3 31.107 Mh/s, GPU4 31.101 Mh/s, GPU5 30.769 Mh/s
+2019/01/14 14:52:48 [INFO] ETH: 01/14/19-14:52:48 - SHARE FOUND - (GPU 1)
+2019/01/14 14:52:48 [INFO] ETH: Share accepted (28 ms)!
+2019-01-14 14:52:50,057 [INFO] check miner proc status, pid 5297
+2019/01/14 14:52:50 [INFO] ETH: 01/14/19-14:52:50 - SHARE FOUND - (GPU 2)
+2019/01/14 14:52:50 [INFO] ETH: Share accepted (28 ms)!
+[2019-01-14 14:52:53] [1;37mspeed[0m 10s/60s/15m [1;36m335.47[0m[0;36m 335.49 n/a [0m[1;36mH/s[0m max [1;36m335.61 H/s[0m[0m
+2019/01/14 14:52:53 [INFO] ETH: 01/14/19-14:52:53 - New job from eth.f2pool.com:8008
+2019/01/14 14:52:53 [INFO] ETH - Total Speed: 185.410 Mh/s, Total Shares: 38, Rejected: 0, Time: 00:13
+2019/01/14 14:52:53 [INFO] ETH: GPU0 31.028 Mh/s, GPU1 31.064 Mh/s, GPU2 30.310 Mh/s, GPU3 31.113 Mh/s, GPU4 31.113 Mh/s, GPU5 30.782 Mh/s
+2019/01/14 14:52:54 [INFO] ETH: 01/14/19-14:52:53 - New job from eth.f2pool.com:8008
+2019/01/14 14:52:54 [INFO] ETH - Total Speed: 185.410 Mh/s, Total Shares: 38, Rejected: 0, Time: 00:13
+2019/01/14 14:52:54 [INFO] ETH: GPU0 31.028 Mh/s, GPU1 31.064 Mh/s, GPU2 30.310 Mh/s, GPU3 31.113 Mh/s, GPU4 31.113 Mh/s, GPU5 30.782 Mh/s
+2019/01/14 14:52:54 [INFO] GPU0 t=59C fan=48%, GPU1 t=61C fan=48%, GPU2 t=57C fan=48%, GPU3 t=55C fan=48%, GPU4 t=57C fan=48%, GPU5 t=59C fan=48%
+[2019-01-14 14:52:59] [1;35mnew job[0m from [1;37mxmr.f2pool.com:13531[0m diff [1;37m16384[0m algo [1;37mcn/2[0m[0m
+2019/01/14 14:53:18 [INFO] ETH: 01/14/19-14:53:18 - SHARE FOUND - (GPU 0)
+2019/01/14 14:53:18 [INFO] ETH: Share accepted (32 ms)!
+2019-01-14 14:53:20,057 [INFO] check miner proc status, pid 5297
+2019/01/14 14:53:23 [INFO] ETH: 01/14/19-14:53:23 - SHARE FOUND - (GPU 4)
+2019/01/14 14:53:23 [INFO] ETH: Share accepted (27 ms)!
+2019/01/14 14:53:24 [INFO] GPU0 t=60C fan=48%, GPU1 t=61C fan=48%, GPU2 t=58C fan=48%, GPU3 t=56C fan=48%, GPU4 t=57C fan=48%, GPU5 t=59C fan=48%
+2019-01-14 14:53:29,997 [INFO] check miner proc status, pid 5330
+2019/01/14 14:53:35 [INFO] ETH: 01/14/19-14:53:35 - SHARE FOUND - (GPU 1)
+2019/01/14 14:53:35 [INFO] ETH: Share accepted (33 ms)!
+2019/01/14 14:53:41 [INFO] ETH: 01/14/19-14:53:41 - New job from eth.f2pool.com:8008
+2019/01/14 14:53:41 [INFO] ETH - Total Speed: 185.424 Mh/s, Total Shares: 41, Rejected: 0, Time: 00:14
+2019/01/14 14:53:41 [INFO] ETH: GPU0 31.045 Mh/s, GPU1 31.064 Mh/s, GPU2 30.311 Mh/s, GPU3 31.118 Mh/s, GPU4 31.110 Mh/s, GPU5 30.777 Mh/s
+2019/01/14 14:53:42 [INFO] ETH: 01/14/19-14:53:41 - New job from eth.f2pool.com:8008
+2019/01/14 14:53:42 [INFO] ETH - Total Speed: 185.424 Mh/s, Total Shares: 41, Rejected: 0, Time: 00:14
+2019/01/14 14:53:42 [INFO] ETH: GPU0 31.045 Mh/s, GPU1 31.064 Mh/s, GPU2 30.311 Mh/s, GPU3 31.118 Mh/s, GPU4 31.110 Mh/s, GPU5 30.777 Mh/s
+2019/01/14 14:53:42 [INFO] ETH: 01/14/19-14:53:42 - New job from eth.f2pool.com:8008
+2019/01/14 14:53:42 [INFO] ETH - Total Speed: 185.424 Mh/s, Total Shares: 41, Rejected: 0, Time: 00:14
+2019/01/14 14:53:42 [INFO] ETH: GPU0 31.045 Mh/s, GPU1 31.064 Mh/s, GPU2 30.311 Mh/s, GPU3 31.118 Mh/s, GPU4 31.110 Mh/s, GPU5 30.777 Mh/s
+2019-01-14 14:53:50,058 [INFO] check miner proc status, pid 5297
+[2019-01-14 14:53:53] [1;37mspeed[0m 10s/60s/15m [1;36m335.40[0m[0;36m 335.45 335.37 [0m[1;36mH/s[0m max [1;36m335.61 H/s[0m[0m
+2019/01/14 14:53:54 [INFO] ETH: 01/14/19-14:53:54 - New job from eth.f2pool.com:8008
+2019/01/14 14:53:54 [INFO] ETH - Total Speed: 185.416 Mh/s, Total Shares: 41, Rejected: 0, Time: 00:14
+2019/01/14 14:53:54 [INFO] ETH: GPU0 31.037 Mh/s, GPU1 31.069 Mh/s, GPU2 30.310 Mh/s, GPU3 31.116 Mh/s, GPU4 31.110 Mh/s, GPU5 30.774 Mh/s
+2019/01/14 14:53:54 [INFO] GPU0 t=59C fan=48%, GPU1 t=61C fan=48%, GPU2 t=57C fan=48%, GPU3 t=56C fan=48%, GPU4 t=57C fan=48%, GPU5 t=59C fan=48%
+2019/01/14 14:53:54 [INFO] ETH: 01/14/19-14:53:54 - New job from eth.f2pool.com:8008
+2019/01/14 14:53:54 [INFO] ETH - Total Speed: 185.362 Mh/s, Total Shares: 41, Rejected: 0, Time: 00:14
+2019/01/14 14:53:54 [INFO] ETH: GPU0 31.034 Mh/s, GPU1 31.052 Mh/s, GPU2 30.300 Mh/s, GPU3 31.101 Mh/s, GPU4 31.103 Mh/s, GPU5 30.771 Mh/s
+2019/01/14 14:53:58 [INFO] ETH: 01/14/19-14:53:58 - New job from eth.f2pool.com:8008
+2019/01/14 14:53:58 [INFO] ETH - Total Speed: 185.418 Mh/s, Total Shares: 41, Rejected: 0, Time: 00:14
+2019/01/14 14:53:58 [INFO] ETH: GPU0 31.036 Mh/s, GPU1 31.065 Mh/s, GPU2 30.308 Mh/s, GPU3 31.117 Mh/s, GPU4 31.113 Mh/s, GPU5 30.779 Mh/s
+2019/01/14 14:53:58 [INFO] ETH: 01/14/19-14:53:58 - New job from eth.f2pool.com:8008
+2019/01/14 14:53:58 [INFO] ETH - Total Speed: 185.420 Mh/s, Total Shares: 41, Rejected: 0, Time: 00:14
+2019/01/14 14:53:58 [INFO] ETH: GPU0 31.041 Mh/s, GPU1 31.063 Mh/s, GPU2 30.310 Mh/s, GPU3 31.114 Mh/s, GPU4 31.114 Mh/s, GPU5 30.779 Mh/s
+[2019-01-14 14:54:02] [01;32maccepted[0m (10/0) diff [01;37m16384[0m [01;30m(58 ms)[0m
+2019/01/14 14:54:03 [INFO] ETH: 01/14/19-14:54:03 - SHARE FOUND - (GPU 1)
+2019/01/14 14:54:03 [INFO] ETH: Share accepted (28 ms)!
+2019/01/14 14:54:05 [INFO] ETH: 01/14/19-14:54:05 - SHARE FOUND - (GPU 2)
+2019/01/14 14:54:05 [INFO] ETH: Share accepted (30 ms)!
+2019/01/14 14:54:16 [INFO] ETH: 01/14/19-14:54:16 - SHARE FOUND - (GPU 2)
+2019/01/14 14:54:16 [INFO] ETH: Share accepted (29 ms)!
+2019-01-14 14:54:20,058 [INFO] check miner proc status, pid 5297
+2019/01/14 14:54:20 [INFO] ETH: 01/14/19-14:54:20 - New job from eth.f2pool.com:8008
+2019/01/14 14:54:20 [INFO] ETH - Total Speed: 185.396 Mh/s, Total Shares: 44, Rejected: 0, Time: 00:15
+2019/01/14 14:54:20 [INFO] ETH: GPU0 31.022 Mh/s, GPU1 31.065 Mh/s, GPU2 30.307 Mh/s, GPU3 31.113 Mh/s, GPU4 31.113 Mh/s, GPU5 30.776 Mh/s
+2019/01/14 14:54:20 [INFO] ETH: 01/14/19-14:54:20 - New job from eth.f2pool.com:8008
+2019/01/14 14:54:20 [INFO] ETH - Total Speed: 185.396 Mh/s, Total Shares: 44, Rejected: 0, Time: 00:15
+2019/01/14 14:54:20 [INFO] ETH: GPU0 31.022 Mh/s, GPU1 31.065 Mh/s, GPU2 30.307 Mh/s, GPU3 31.113 Mh/s, GPU4 31.113 Mh/s, GPU5 30.776 Mh/s
+2019/01/14 14:54:24 [INFO] GPU0 t=60C fan=48%, GPU1 t=61C fan=48%, GPU2 t=58C fan=48%, GPU3 t=56C fan=48%, GPU4 t=57C fan=48%, GPU5 t=59C fan=48%
+2019/01/14 14:54:25 [INFO] ETH: 01/14/19-14:54:25 - New job from eth.f2pool.com:8008
+2019/01/14 14:54:25 [INFO] ETH - Total Speed: 185.399 Mh/s, Total Shares: 44, Rejected: 0, Time: 00:15
+2019/01/14 14:54:25 [INFO] ETH: GPU0 31.023 Mh/s, GPU1 31.063 Mh/s, GPU2 30.309 Mh/s, GPU3 31.115 Mh/s, GPU4 31.111 Mh/s, GPU5 30.779 Mh/s
+2019/01/14 14:54:27 [INFO] ETH: 01/14/19-14:54:27 - SHARE FOUND - (GPU 4)
+2019/01/14 14:54:27 [INFO] ETH: Share accepted (29 ms)!
+[2019-01-14 14:54:28] [01;32maccepted[0m (11/0) diff [01;37m16384[0m [01;30m(64 ms)[0m
+[2019-01-14 14:54:35] [1;35mnew job[0m from [1;37mxmr.f2pool.com:13531[0m diff [1;37m32768[0m algo [1;37mcn/2[0m[0m
+2019/01/14 14:54:36 [INFO] ETH: 01/14/19-14:54:36 - New job from eth.f2pool.com:8008
+2019/01/14 14:54:36 [INFO] ETH - Total Speed: 185.423 Mh/s, Total Shares: 45, Rejected: 0, Time: 00:15
+2019/01/14 14:54:36 [INFO] ETH: GPU0 31.041 Mh/s, GPU1 31.064 Mh/s, GPU2 30.313 Mh/s, GPU3 31.117 Mh/s, GPU4 31.109 Mh/s, GPU5 30.779 Mh/s
+2019/01/14 14:54:36 [INFO] ETH: 01/14/19-14:54:36 - New job from eth.f2pool.com:8008
+2019/01/14 14:54:36 [INFO] ETH - Total Speed: 185.423 Mh/s, Total Shares: 45, Rejected: 0, Time: 00:15
+2019/01/14 14:54:36 [INFO] ETH: GPU0 31.041 Mh/s, GPU1 31.064 Mh/s, GPU2 30.313 Mh/s, GPU3 31.117 Mh/s, GPU4 31.109 Mh/s, GPU5 30.779 Mh/s
+2019/01/14 14:54:43 [INFO] ETH: 01/14/19-14:54:43 - SHARE FOUND - (GPU 1)
+[2019-01-14 14:54:43] [01;32maccepted[0m (12/0) diff [01;37m32768[0m [01;30m(52 ms)[0m
+2019/01/14 14:54:43 [INFO] ETH: Share accepted (29 ms)!
+2019-01-14 14:54:50,058 [INFO] check miner proc status, pid 5297
+2019/01/14 14:54:51 [INFO] ETH: 01/14/19-14:54:51 - New job from eth.f2pool.com:8008
+2019/01/14 14:54:51 [INFO] ETH - Total Speed: 185.404 Mh/s, Total Shares: 46, Rejected: 0, Time: 00:15
+2019/01/14 14:54:51 [INFO] ETH: GPU0 31.024 Mh/s, GPU1 31.065 Mh/s, GPU2 30.312 Mh/s, GPU3 31.112 Mh/s, GPU4 31.112 Mh/s, GPU5 30.778 Mh/s
+2019/01/14 14:54:52 [INFO] ETH: 01/14/19-14:54:52 - New job from eth.f2pool.com:8008
+2019/01/14 14:54:52 [INFO] ETH - Total Speed: 185.404 Mh/s, Total Shares: 46, Rejected: 0, Time: 00:15
+2019/01/14 14:54:52 [INFO] ETH: GPU0 31.024 Mh/s, GPU1 31.065 Mh/s, GPU2 30.312 Mh/s, GPU3 31.112 Mh/s, GPU4 31.112 Mh/s, GPU5 30.778 Mh/s
+[2019-01-14 14:54:53] [1;37mspeed[0m 10s/60s/15m [1;36m335.46[0m[0;36m 335.50 335.45 [0m[1;36mH/s[0m max [1;36m335.61 H/s[0m[0m
+2019/01/14 14:54:54 [INFO] GPU0 t=60C fan=48%, GPU1 t=62C fan=48%, GPU2 t=58C fan=48%, GPU3 t=56C fan=48%, GPU4 t=57C fan=48%, GPU5 t=59C fan=48%
+2019/01/14 14:55:00 [INFO] ETH: 01/14/19-14:54:59 - New job from eth.f2pool.com:8008
+2019/01/14 14:55:00 [INFO] ETH - Total Speed: 185.421 Mh/s, Total Shares: 46, Rejected: 0, Time: 00:15
+2019/01/14 14:55:00 [INFO] ETH: GPU0 31.046 Mh/s, GPU1 31.063 Mh/s, GPU2 30.307 Mh/s, GPU3 31.116 Mh/s, GPU4 31.111 Mh/s, GPU5 30.779 Mh/s
+2019/01/14 14:55:00 [INFO] ETH: 01/14/19-14:55:00 - New job from eth.f2pool.com:8008
+2019/01/14 14:55:00 [INFO] ETH - Total Speed: 185.346 Mh/s, Total Shares: 46, Rejected: 0, Time: 00:16
+2019/01/14 14:55:00 [INFO] ETH: GPU0 31.033 Mh/s, GPU1 31.048 Mh/s, GPU2 30.298 Mh/s, GPU3 31.101 Mh/s, GPU4 31.099 Mh/s, GPU5 30.767 Mh/s
+2019/01/14 14:55:01 [INFO] ETH: 01/14/19-14:55:00 - SHARE FOUND - (GPU 2)
+2019/01/14 14:55:01 [INFO] ETH: Share accepted (27 ms)!
+2019/01/14 14:55:04 [INFO] ETH: 01/14/19-14:55:04 - New job from eth.f2pool.com:8008
+2019/01/14 14:55:04 [INFO] ETH - Total Speed: 185.406 Mh/s, Total Shares: 47, Rejected: 0, Time: 00:16
+2019/01/14 14:55:04 [INFO] ETH: GPU0 31.031 Mh/s, GPU1 31.062 Mh/s, GPU2 30.308 Mh/s, GPU3 31.116 Mh/s, GPU4 31.111 Mh/s, GPU5 30.778 Mh/s
+2019/01/14 14:55:05 [INFO] ETH: 01/14/19-14:55:05 - New job from eth.f2pool.com:8008
+2019/01/14 14:55:05 [INFO] ETH - Total Speed: 185.344 Mh/s, Total Shares: 47, Rejected: 0, Time: 00:16
+2019/01/14 14:55:05 [INFO] ETH: GPU0 31.027 Mh/s, GPU1 31.058 Mh/s, GPU2 30.301 Mh/s, GPU3 31.108 Mh/s, GPU4 31.096 Mh/s, GPU5 30.754 Mh/s
+[2019-01-14 14:55:14] [01;32maccepted[0m (13/0) diff [01;37m32768[0m [01;30m(93 ms)[0m
+2019/01/14 14:55:16 [INFO] ETH: 01/14/19-14:55:16 - New job from eth.f2pool.com:8008
+2019/01/14 14:55:16 [INFO] ETH - Total Speed: 185.412 Mh/s, Total Shares: 47, Rejected: 0, Time: 00:16
+2019/01/14 14:55:16 [INFO] ETH: GPU0 31.031 Mh/s, GPU1 31.061 Mh/s, GPU2 30.309 Mh/s, GPU3 31.119 Mh/s, GPU4 31.112 Mh/s, GPU5 30.781 Mh/s
+2019/01/14 14:55:17 [INFO] ETH: 01/14/19-14:55:17 - New job from eth.f2pool.com:8008
+2019/01/14 14:55:17 [INFO] ETH - Total Speed: 185.412 Mh/s, Total Shares: 47, Rejected: 0, Time: 00:16
+2019/01/14 14:55:17 [INFO] ETH: GPU0 31.031 Mh/s, GPU1 31.061 Mh/s, GPU2 30.309 Mh/s, GPU3 31.119 Mh/s, GPU4 31.112 Mh/s, GPU5 30.781 Mh/s
+2019-01-14 14:55:20,059 [INFO] check miner proc status, pid 5297
+2019/01/14 14:55:24 [INFO] ETH: 01/14/19-14:55:24 - New job from eth.f2pool.com:8008
+2019/01/14 14:55:24 [INFO] ETH - Total Speed: 185.395 Mh/s, Total Shares: 47, Rejected: 0, Time: 00:16
+2019/01/14 14:55:24 [INFO] ETH: GPU0 31.023 Mh/s, GPU1 31.061 Mh/s, GPU2 30.309 Mh/s, GPU3 31.116 Mh/s, GPU4 31.112 Mh/s, GPU5 30.774 Mh/s
+2019/01/14 14:55:24 [INFO] ETH: 01/14/19-14:55:24 - New job from eth.f2pool.com:8008
+2019/01/14 14:55:24 [INFO] ETH - Total Speed: 185.395 Mh/s, Total Shares: 47, Rejected: 0, Time: 00:16
+2019/01/14 14:55:24 [INFO] ETH: GPU0 31.023 Mh/s, GPU1 31.061 Mh/s, GPU2 30.309 Mh/s, GPU3 31.116 Mh/s, GPU4 31.112 Mh/s, GPU5 30.774 Mh/s
+2019/01/14 14:55:24 [INFO] GPU0 t=60C fan=48%, GPU1 t=62C fan=48%, GPU2 t=58C fan=48%, GPU3 t=56C fan=48%, GPU4 t=57C fan=48%, GPU5 t=59C fan=48%
+2019/01/14 14:55:40 [INFO] ETH: 01/14/19-14:55:40 - SHARE FOUND - (GPU 0)
+2019/01/14 14:55:40 [INFO] ETH: Share accepted (28 ms)!
+[2019-01-14 14:55:43] [01;32maccepted[0m (14/0) diff [01;37m32768[0m [01;30m(51 ms)[0m
+2019/01/14 14:55:44 [INFO] ETH: 01/14/19-14:55:44 - SHARE FOUND - (GPU 3)
+2019/01/14 14:55:44 [INFO] ETH: Share accepted (28 ms)!
+2019-01-14 14:55:50,059 [INFO] check miner proc status, pid 5297
+2019/01/14 14:55:51 [INFO] ETH: 01/14/19-14:55:51 - New job from eth.f2pool.com:8008
+2019/01/14 14:55:51 [INFO] ETH - Total Speed: 185.411 Mh/s, Total Shares: 49, Rejected: 0, Time: 00:16
+2019/01/14 14:55:51 [INFO] ETH: GPU0 31.027 Mh/s, GPU1 31.066 Mh/s, GPU2 30.309 Mh/s, GPU3 31.116 Mh/s, GPU4 31.114 Mh/s, GPU5 30.780 Mh/s
+2019/01/14 14:55:51 [INFO] ETH: 01/14/19-14:55:51 - New job from eth.f2pool.com:8008
+2019/01/14 14:55:51 [INFO] ETH - Total Speed: 185.411 Mh/s, Total Shares: 49, Rejected: 0, Time: 00:16
+2019/01/14 14:55:51 [INFO] ETH: GPU0 31.027 Mh/s, GPU1 31.066 Mh/s, GPU2 30.309 Mh/s, GPU3 31.116 Mh/s, GPU4 31.114 Mh/s, GPU5 30.780 Mh/s
+[2019-01-14 14:55:53] [1;37mspeed[0m 10s/60s/15m [1;36m335.32[0m[0;36m 335.46 335.45 [0m[1;36mH/s[0m max [1;36m335.61 H/s[0m[0m
+2019/01/14 14:55:54 [INFO] GPU0 t=60C fan=48%, GPU1 t=62C fan=48%, GPU2 t=58C fan=48%, GPU3 t=56C fan=48%, GPU4 t=57C fan=48%, GPU5 t=59C fan=48%
+2019/01/14 14:55:55 [INFO] ETH: 01/14/19-14:55:55 - New job from eth.f2pool.com:8008
+2019/01/14 14:55:55 [INFO] ETH - Total Speed: 185.391 Mh/s, Total Shares: 49, Rejected: 0, Time: 00:16
+2019/01/14 14:55:55 [INFO] ETH: GPU0 31.016 Mh/s, GPU1 31.067 Mh/s, GPU2 30.312 Mh/s, GPU3 31.116 Mh/s, GPU4 31.113 Mh/s, GPU5 30.768 Mh/s
+2019/01/14 14:55:55 [INFO] ETH: 01/14/19-14:55:55 - New job from eth.f2pool.com:8008
+2019/01/14 14:55:55 [INFO] ETH - Total Speed: 185.391 Mh/s, Total Shares: 49, Rejected: 0, Time: 00:16
+2019/01/14 14:55:55 [INFO] ETH: GPU0 31.016 Mh/s, GPU1 31.067 Mh/s, GPU2 30.312 Mh/s, GPU3 31.116 Mh/s, GPU4 31.113 Mh/s, GPU5 30.768 Mh/s
+2019/01/14 14:56:02 [INFO] ETH: 01/14/19-14:56:01 - New job from eth.f2pool.com:8008
+2019/01/14 14:56:02 [INFO] ETH - Total Speed: 185.400 Mh/s, Total Shares: 49, Rejected: 0, Time: 00:17
+2019/01/14 14:56:02 [INFO] ETH: GPU0 31.020 Mh/s, GPU1 31.066 Mh/s, GPU2 30.309 Mh/s, GPU3 31.111 Mh/s, GPU4 31.116 Mh/s, GPU5 30.777 Mh/s
+2019/01/14 14:56:02 [INFO] ETH: 01/14/19-14:56:02 - New job from eth.f2pool.com:8008
+2019/01/14 14:56:02 [INFO] ETH - Total Speed: 185.400 Mh/s, Total Shares: 49, Rejected: 0, Time: 00:17
+2019/01/14 14:56:02 [INFO] ETH: GPU0 31.020 Mh/s, GPU1 31.066 Mh/s, GPU2 30.309 Mh/s, GPU3 31.111 Mh/s, GPU4 31.116 Mh/s, GPU5 30.777 Mh/s
+2019/01/14 14:56:02 [INFO] ETH: 01/14/19-14:56:02 - New job from eth.f2pool.com:8008
+2019/01/14 14:56:02 [INFO] ETH - Total Speed: 185.327 Mh/s, Total Shares: 49, Rejected: 0, Time: 00:17
+2019/01/14 14:56:02 [INFO] ETH: GPU0 31.004 Mh/s, GPU1 31.054 Mh/s, GPU2 30.303 Mh/s, GPU3 31.102 Mh/s, GPU4 31.096 Mh/s, GPU5 30.768 Mh/s
+2019/01/14 14:56:02 [INFO] ETH: 01/14/19-14:56:02 - New job from eth.f2pool.com:8008
+2019/01/14 14:56:02 [INFO] ETH - Total Speed: 185.327 Mh/s, Total Shares: 49, Rejected: 0, Time: 00:17
+2019/01/14 14:56:02 [INFO] ETH: GPU0 31.004 Mh/s, GPU1 31.054 Mh/s, GPU2 30.303 Mh/s, GPU3 31.102 Mh/s, GPU4 31.096 Mh/s, GPU5 30.768 Mh/s
+2019/01/14 14:56:05 [INFO] ETH: 01/14/19-14:56:05 - New job from eth.f2pool.com:8008
+2019/01/14 14:56:05 [INFO] ETH - Total Speed: 185.408 Mh/s, Total Shares: 49, Rejected: 0, Time: 00:17
+2019/01/14 14:56:05 [INFO] ETH: GPU0 31.025 Mh/s, GPU1 31.066 Mh/s, GPU2 30.309 Mh/s, GPU3 31.117 Mh/s, GPU4 31.113 Mh/s, GPU5 30.777 Mh/s
+2019/01/14 14:56:05 [INFO] ETH: 01/14/19-14:56:05 - New job from eth.f2pool.com:8008
+2019/01/14 14:56:05 [INFO] ETH - Total Speed: 185.408 Mh/s, Total Shares: 49, Rejected: 0, Time: 00:17
+2019/01/14 14:56:05 [INFO] ETH: GPU0 31.025 Mh/s, GPU1 31.066 Mh/s, GPU2 30.309 Mh/s, GPU3 31.117 Mh/s, GPU4 31.113 Mh/s, GPU5 30.777 Mh/s
+2019/01/14 14:56:10 [INFO] ETH: 01/14/19-14:56:10 - New job from eth.f2pool.com:8008
+2019/01/14 14:56:10 [INFO] ETH - Total Speed: 185.400 Mh/s, Total Shares: 49, Rejected: 0, Time: 00:17
+2019/01/14 14:56:10 [INFO] ETH: GPU0 31.021 Mh/s, GPU1 31.061 Mh/s, GPU2 30.310 Mh/s, GPU3 31.115 Mh/s, GPU4 31.113 Mh/s, GPU5 30.780 Mh/s
+2019/01/14 14:56:10 [INFO] ETH: 01/14/19-14:56:10 - New job from eth.f2pool.com:8008
+2019/01/14 14:56:10 [INFO] ETH - Total Speed: 185.400 Mh/s, Total Shares: 49, Rejected: 0, Time: 00:17
+2019/01/14 14:56:10 [INFO] ETH: GPU0 31.021 Mh/s, GPU1 31.061 Mh/s, GPU2 30.310 Mh/s, GPU3 31.115 Mh/s, GPU4 31.113 Mh/s, GPU5 30.780 Mh/s
+2019/01/14 14:56:11 [INFO] ETH: 01/14/19-14:56:11 - SHARE FOUND - (GPU 0)
+2019/01/14 14:56:11 [INFO] ETH: Share accepted (27 ms)!
+2019/01/14 14:56:19 [INFO] ETH: 01/14/19-14:56:19 - New job from eth.f2pool.com:8008
+2019/01/14 14:56:19 [INFO] ETH - Total Speed: 185.408 Mh/s, Total Shares: 50, Rejected: 0, Time: 00:17
+2019/01/14 14:56:19 [INFO] ETH: GPU0 31.027 Mh/s, GPU1 31.067 Mh/s, GPU2 30.307 Mh/s, GPU3 31.116 Mh/s, GPU4 31.112 Mh/s, GPU5 30.779 Mh/s
+2019/01/14 14:56:19 [INFO] ETH: 01/14/19-14:56:19 - New job from eth.f2pool.com:8008
+2019/01/14 14:56:19 [INFO] ETH - Total Speed: 185.408 Mh/s, Total Shares: 50, Rejected: 0, Time: 00:17
+2019/01/14 14:56:19 [INFO] ETH: GPU0 31.027 Mh/s, GPU1 31.067 Mh/s, GPU2 30.307 Mh/s, GPU3 31.116 Mh/s, GPU4 31.112 Mh/s, GPU5 30.779 Mh/s
+2019-01-14 14:56:20,060 [INFO] check miner proc status, pid 5297
+2019/01/14 14:56:20 [INFO] ETH: 01/14/19-14:56:20 - SHARE FOUND - (GPU 5)
+2019/01/14 14:56:20 [INFO] ETH: Share accepted (28 ms)!
+2019/01/14 14:56:22 [INFO] ETH: 01/14/19-14:56:22 - New job from eth.f2pool.com:8008
+2019/01/14 14:56:22 [INFO] ETH - Total Speed: 185.411 Mh/s, Total Shares: 51, Rejected: 0, Time: 00:17
+2019/01/14 14:56:22 [INFO] ETH: GPU0 31.029 Mh/s, GPU1 31.065 Mh/s, GPU2 30.312 Mh/s, GPU3 31.113 Mh/s, GPU4 31.113 Mh/s, GPU5 30.779 Mh/s
+2019/01/14 14:56:23 [INFO] ETH: 01/14/19-14:56:23 - New job from eth.f2pool.com:8008
+2019/01/14 14:56:23 [INFO] ETH - Total Speed: 185.410 Mh/s, Total Shares: 51, Rejected: 0, Time: 00:17
+2019/01/14 14:56:23 [INFO] ETH: GPU0 31.027 Mh/s, GPU1 31.068 Mh/s, GPU2 30.313 Mh/s, GPU3 31.114 Mh/s, GPU4 31.112 Mh/s, GPU5 30.777 Mh/s
+2019-01-14 14:56:23,888 [INFO] check miner proc status, pid 5330
+2019/01/14 14:56:24 [INFO] GPU0 t=60C fan=48%, GPU1 t=62C fan=48%, GPU2 t=58C fan=48%, GPU3 t=56C fan=48%, GPU4 t=57C fan=48%, GPU5 t=59C fan=48%
+2019/01/14 14:56:30 [INFO] ETH: Authorized
+2019/01/14 14:56:34 [INFO] ETH: Share accepted (63 ms)!
+2019/01/14 14:56:35 [INFO] ETH: 01/14/19-14:56:34 - New job from eth.f2pool.com:8008
+2019/01/14 14:56:35 [INFO] ETH - Total Speed: 185.394 Mh/s, Total Shares: 51, Rejected: 0, Time: 00:17
+2019/01/14 14:56:35 [INFO] ETH: GPU0 31.032 Mh/s, GPU1 31.061 Mh/s, GPU2 30.309 Mh/s, GPU3 31.114 Mh/s, GPU4 31.106 Mh/s, GPU5 30.772 Mh/s
+2019/01/14 14:56:35 [INFO] ETH: 01/14/19-14:56:35 - New job from eth.f2pool.com:8008
+2019/01/14 14:56:35 [INFO] ETH - Total Speed: 185.394 Mh/s, Total Shares: 51, Rejected: 0, Time: 00:17
+2019/01/14 14:56:35 [INFO] ETH: GPU0 31.032 Mh/s, GPU1 31.061 Mh/s, GPU2 30.309 Mh/s, GPU3 31.114 Mh/s, GPU4 31.106 Mh/s, GPU5 30.772 Mh/s
+2019/01/14 14:56:41 [INFO] ETH: 01/14/19-14:56:41 - New job from eth.f2pool.com:8008
+2019/01/14 14:56:41 [INFO] ETH - Total Speed: 185.399 Mh/s, Total Shares: 51, Rejected: 0, Time: 00:17
+2019/01/14 14:56:41 [INFO] ETH: GPU0 31.015 Mh/s, GPU1 31.066 Mh/s, GPU2 30.310 Mh/s, GPU3 31.117 Mh/s, GPU4 31.109 Mh/s, GPU5 30.782 Mh/s
+2019/01/14 14:56:41 [INFO] ETH: 01/14/19-14:56:41 - New job from eth.f2pool.com:8008
+2019/01/14 14:56:41 [INFO] ETH - Total Speed: 185.399 Mh/s, Total Shares: 51, Rejected: 0, Time: 00:17
+2019/01/14 14:56:41 [INFO] ETH: GPU0 31.015 Mh/s, GPU1 31.066 Mh/s, GPU2 30.310 Mh/s, GPU3 31.117 Mh/s, GPU4 31.109 Mh/s, GPU5 30.782 Mh/s
+2019-01-14 14:56:50,060 [INFO] check miner proc status, pid 5297
+2019/01/14 14:56:51 [INFO] ETH: 01/14/19-14:56:50 - New job from eth.f2pool.com:8008
+2019/01/14 14:56:51 [INFO] ETH - Total Speed: 185.396 Mh/s, Total Shares: 51, Rejected: 0, Time: 00:17
+2019/01/14 14:56:51 [INFO] ETH: GPU0 31.020 Mh/s, GPU1 31.068 Mh/s, GPU2 30.309 Mh/s, GPU3 31.115 Mh/s, GPU4 31.110 Mh/s, GPU5 30.774 Mh/s
+2019/01/14 14:56:51 [INFO] ETH: 01/14/19-14:56:51 - New job from eth.f2pool.com:8008
+2019/01/14 14:56:51 [INFO] ETH - Total Speed: 185.232 Mh/s, Total Shares: 51, Rejected: 0, Time: 00:17
+2019/01/14 14:56:51 [INFO] ETH: GPU0 30.917 Mh/s, GPU1 31.054 Mh/s, GPU2 30.299 Mh/s, GPU3 31.099 Mh/s, GPU4 31.094 Mh/s, GPU5 30.769 Mh/s
+[2019-01-14 14:56:53] [1;35mnew job[0m from [1;37mxmr.f2pool.com:13531[0m diff [1;37m65537[0m algo [1;37mcn/2[0m[0m
+[2019-01-14 14:56:53] [1;37mspeed[0m 10s/60s/15m [1;36m335.24[0m[0;36m 335.41 335.44 [0m[1;36mH/s[0m max [1;36m335.61 H/s[0m[0m
+2019/01/14 14:56:54 [INFO] GPU0 t=60C fan=48%, GPU1 t=62C fan=48%, GPU2 t=58C fan=48%, GPU3 t=56C fan=48%, GPU4 t=57C fan=48%, GPU5 t=59C fan=48%
+2019/01/14 14:56:55 [INFO] ETH: 01/14/19-14:56:55 - New job from eth.f2pool.com:8008
+2019/01/14 14:56:55 [INFO] ETH - Total Speed: 185.417 Mh/s, Total Shares: 51, Rejected: 0, Time: 00:17
+2019/01/14 14:56:55 [INFO] ETH: GPU0 31.034 Mh/s, GPU1 31.067 Mh/s, GPU2 30.310 Mh/s, GPU3 31.115 Mh/s, GPU4 31.112 Mh/s, GPU5 30.779 Mh/s
+2019/01/14 14:56:55 [INFO] ETH: 01/14/19-14:56:55 - New job from eth.f2pool.com:8008
+2019/01/14 14:56:55 [INFO] ETH - Total Speed: 185.417 Mh/s, Total Shares: 51, Rejected: 0, Time: 00:17
+2019/01/14 14:56:55 [INFO] ETH: GPU0 31.034 Mh/s, GPU1 31.067 Mh/s, GPU2 30.310 Mh/s, GPU3 31.115 Mh/s, GPU4 31.112 Mh/s, GPU5 30.779 Mh/s
+2019/01/14 14:56:58 [INFO] ETH: 01/14/19-14:56:58 - New job from eth.f2pool.com:8008
+2019/01/14 14:56:58 [INFO] ETH - Total Speed: 185.403 Mh/s, Total Shares: 51, Rejected: 0, Time: 00:17
+2019/01/14 14:56:58 [INFO] ETH: GPU0 31.020 Mh/s, GPU1 31.064 Mh/s, GPU2 30.311 Mh/s, GPU3 31.114 Mh/s, GPU4 31.112 Mh/s, GPU5 30.781 Mh/s
+[2019-01-14 14:56:59] [1;35mnew job[0m from [1;37mxmr.f2pool.com:13531[0m diff [1;37m32768[0m algo [1;37mcn/2[0m[0m
+2019/01/14 14:57:01 [INFO] ETH: 01/14/19-14:57:01 - New job from eth.f2pool.com:8008
+2019/01/14 14:57:01 [INFO] ETH - Total Speed: 185.401 Mh/s, Total Shares: 51, Rejected: 0, Time: 00:18
+2019/01/14 14:57:01 [INFO] ETH: GPU0 31.022 Mh/s, GPU1 31.064 Mh/s, GPU2 30.311 Mh/s, GPU3 31.116 Mh/s, GPU4 31.109 Mh/s, GPU5 30.779 Mh/s
+2019/01/14 14:57:07 [WARN] ( 1 ) server read err read tcp 10.0.2.100:58230->203.107.32.162:8008: use of closed network connection
+2019/01/14 14:57:07 [WARN] ( 1 ) extra conn read err read tcp 10.0.2.100:58234->203.107.32.162:8008: use of closed network connection
+2019/01/14 14:57:07 [INFO] ( 1 ) Closing TCP connection.
+[2019-01-14 14:57:13] [1;35mnew job[0m from [1;37mxmr.f2pool.com:13531[0m diff [1;37m16384[0m algo [1;37mcn/2[0m[0m
+2019/01/14 14:57:19 [INFO] ETH: 01/14/19-14:57:19 - New job from eth.f2pool.com:8008
+2019/01/14 14:57:19 [INFO] ETH - Total Speed: 185.385 Mh/s, Total Shares: 51, Rejected: 0, Time: 00:18
+2019/01/14 14:57:19 [INFO] ETH: GPU0 31.008 Mh/s, GPU1 31.064 Mh/s, GPU2 30.311 Mh/s, GPU3 31.113 Mh/s, GPU4 31.112 Mh/s, GPU5 30.777 Mh/s
+2019/01/14 14:57:19 [INFO] ETH: 01/14/19-14:57:19 - New job from eth.f2pool.com:8008
+2019/01/14 14:57:19 [INFO] ETH - Total Speed: 185.345 Mh/s, Total Shares: 51, Rejected: 0, Time: 00:18
+2019/01/14 14:57:19 [INFO] ETH: GPU0 31.012 Mh/s, GPU1 31.058 Mh/s, GPU2 30.305 Mh/s, GPU3 31.103 Mh/s, GPU4 31.101 Mh/s, GPU5 30.766 Mh/s
+2019-01-14 14:57:20,060 [INFO] check miner proc status, pid 5297
+[2019-01-14 14:57:20] [01;32maccepted[0m (15/0) diff [01;37m16384[0m [01;30m(55 ms)[0m
+2019/01/14 14:57:22 [INFO] ETH: 01/14/19-14:57:22 - New job from eth.f2pool.com:8008
+2019/01/14 14:57:22 [INFO] ETH - Total Speed: 185.393 Mh/s, Total Shares: 51, Rejected: 0, Time: 00:18
+2019/01/14 14:57:22 [INFO] ETH: GPU0 31.014 Mh/s, GPU1 31.060 Mh/s, GPU2 30.313 Mh/s, GPU3 31.114 Mh/s, GPU4 31.114 Mh/s, GPU5 30.779 Mh/s
+2019/01/14 14:57:23 [INFO] ETH: 01/14/19-14:57:23 - New job from eth.f2pool.com:8008
+2019/01/14 14:57:23 [INFO] ETH - Total Speed: 185.375 Mh/s, Total Shares: 51, Rejected: 0, Time: 00:18
+2019/01/14 14:57:23 [INFO] ETH: GPU0 31.002 Mh/s, GPU1 31.065 Mh/s, GPU2 30.309 Mh/s, GPU3 31.114 Mh/s, GPU4 31.108 Mh/s, GPU5 30.778 Mh/s
+2019/01/14 14:57:23 [INFO] ETH: 01/14/19-14:57:23 - New job from eth.f2pool.com:8008
+2019/01/14 14:57:23 [INFO] ETH - Total Speed: 185.346 Mh/s, Total Shares: 51, Rejected: 0, Time: 00:18
+2019/01/14 14:57:23 [INFO] ETH: GPU0 31.004 Mh/s, GPU1 31.051 Mh/s, GPU2 30.309 Mh/s, GPU3 31.100 Mh/s, GPU4 31.103 Mh/s, GPU5 30.778 Mh/s
+2019/01/14 14:57:24 [INFO] GPU0 t=60C fan=48%, GPU1 t=62C fan=48%, GPU2 t=58C fan=48%, GPU3 t=56C fan=48%, GPU4 t=57C fan=48%, GPU5 t=59C fan=48%
+2019/01/14 14:57:28 [INFO] ETH: 01/14/19-14:57:28 - SHARE FOUND - (GPU 3)
+2019/01/14 14:57:28 [INFO] ETH: Share accepted (28 ms)!
+2019-01-14 14:57:50,061 [INFO] check miner proc status, pid 5297
+2019-01-14 14:57:50,841 [INFO] check miner proc status, pid 5330
+[2019-01-14 14:57:53] [1;37mspeed[0m 10s/60s/15m [1;36m335.55[0m[0;36m 335.31 335.43 [0m[1;36mH/s[0m max [1;36m335.61 H/s[0m[0m
+2019/01/14 14:57:54 [INFO] GPU0 t=60C fan=48%, GPU1 t=62C fan=48%, GPU2 t=58C fan=48%, GPU3 t=56C fan=48%, GPU4 t=57C fan=48%, GPU5 t=60C fan=48%
+2019/01/14 14:57:59 [INFO] ETH: 01/14/19-14:57:59 - New job from eth.f2pool.com:8008
+2019/01/14 14:57:59 [INFO] ETH - Total Speed: 185.395 Mh/s, Total Shares: 52, Rejected: 0, Time: 00:18
+2019/01/14 14:57:59 [INFO] ETH: GPU0 31.013 Mh/s, GPU1 31.063 Mh/s, GPU2 30.313 Mh/s, GPU3 31.114 Mh/s, GPU4 31.111 Mh/s, GPU5 30.781 Mh/s
+2019/01/14 14:58:00 [INFO] ETH: 01/14/19-14:57:59 - New job from eth.f2pool.com:8008
+2019/01/14 14:58:00 [INFO] ETH - Total Speed: 185.395 Mh/s, Total Shares: 52, Rejected: 0, Time: 00:18
+2019/01/14 14:58:00 [INFO] ETH: GPU0 31.013 Mh/s, GPU1 31.063 Mh/s, GPU2 30.313 Mh/s, GPU3 31.114 Mh/s, GPU4 31.111 Mh/s, GPU5 30.781 Mh/s
+[2019-01-14 14:58:05] [1;35mnew job[0m from [1;37mxmr.f2pool.com:13531[0m diff [1;37m16384[0m algo [1;37mcn/2[0m[0m
+[2019-01-14 14:58:10] [1;35mnew job[0m from [1;37mxmr.f2pool.com:13531[0m diff [1;37m16384[0m algo [1;37mcn/2[0m[0m
+[2019-01-14 14:58:15] [01;32maccepted[0m (16/0) diff [01;37m16384[0m [01;30m(134 ms)[0m
+2019-01-14 14:58:20,061 [INFO] check miner proc status, pid 5297
+[2019-01-14 14:58:23] [01;32maccepted[0m (17/0) diff [01;37m16384[0m [01;30m(177 ms)[0m
+[2019-01-14 14:58:24] [1;35mnew job[0m from [1;37mxmr.f2pool.com:13531[0m diff [1;37m32768[0m algo [1;37mcn/2[0m[0m
+2019/01/14 14:58:24 [INFO] GPU0 t=60C fan=48%, GPU1 t=63C fan=48%, GPU2 t=58C fan=48%, GPU3 t=56C fan=48%, GPU4 t=57C fan=48%, GPU5 t=60C fan=48%
+[2019-01-14 14:58:32] [01;32maccepted[0m (18/0) diff [01;37m32768[0m [01;30m(50 ms)[0m
+2019/01/14 14:58:37 [INFO] ETH: 01/14/19-14:58:37 - SHARE FOUND - (GPU 2)
+2019/01/14 14:58:37 [INFO] ETH: Share accepted (27 ms)!
+2019/01/14 14:58:47 [INFO] ETH: 01/14/19-14:58:46 - New job from eth.f2pool.com:8008
+2019/01/14 14:58:47 [INFO] ETH - Total Speed: 185.378 Mh/s, Total Shares: 53, Rejected: 0, Time: 00:19
+2019/01/14 14:58:47 [INFO] ETH: GPU0 30.999 Mh/s, GPU1 31.060 Mh/s, GPU2 30.310 Mh/s, GPU3 31.116 Mh/s, GPU4 31.112 Mh/s, GPU5 30.781 Mh/s
+2019/01/14 14:58:47 [INFO] ETH: 01/14/19-14:58:47 - New job from eth.f2pool.com:8008
+2019/01/14 14:58:47 [INFO] ETH - Total Speed: 185.378 Mh/s, Total Shares: 53, Rejected: 0, Time: 00:19
+2019/01/14 14:58:47 [INFO] ETH: GPU0 30.999 Mh/s, GPU1 31.060 Mh/s, GPU2 30.310 Mh/s, GPU3 31.116 Mh/s, GPU4 31.112 Mh/s, GPU5 30.781 Mh/s
+2019-01-14 14:58:50,061 [INFO] check miner proc status, pid 5297
+2019/01/14 14:58:52 [INFO] ETH: 01/14/19-14:58:52 - SHARE FOUND - (GPU 2)
+2019/01/14 14:58:52 [INFO] ETH: Share accepted (28 ms)!
+2019/01/14 14:58:53 [INFO] ETH: 01/14/19-14:58:53 - New job from eth.f2pool.com:8008
+2019/01/14 14:58:53 [INFO] ETH - Total Speed: 185.359 Mh/s, Total Shares: 54, Rejected: 0, Time: 00:19
+2019/01/14 14:58:53 [INFO] ETH: GPU0 30.995 Mh/s, GPU1 31.063 Mh/s, GPU2 30.307 Mh/s, GPU3 31.110 Mh/s, GPU4 31.108 Mh/s, GPU5 30.776 Mh/s
+2019/01/14 14:58:53 [INFO] ETH: 01/14/19-14:58:53 - New job from eth.f2pool.com:8008
+2019/01/14 14:58:53 [INFO] ETH - Total Speed: 185.318 Mh/s, Total Shares: 54, Rejected: 0, Time: 00:19
+2019/01/14 14:58:53 [INFO] ETH: GPU0 30.983 Mh/s, GPU1 31.054 Mh/s, GPU2 30.303 Mh/s, GPU3 31.108 Mh/s, GPU4 31.099 Mh/s, GPU5 30.771 Mh/s
+[2019-01-14 14:58:53] [1;37mspeed[0m 10s/60s/15m [1;36m335.27[0m[0;36m 335.52 335.43 [0m[1;36mH/s[0m max [1;36m335.62 H/s[0m[0m
+2019/01/14 14:58:54 [INFO] GPU0 t=60C fan=48%, GPU1 t=63C fan=48%, GPU2 t=58C fan=48%, GPU3 t=56C fan=48%, GPU4 t=57C fan=48%, GPU5 t=60C fan=48%
+[2019-01-14 14:58:57] [1;35mnew job[0m from [1;37mxmr.f2pool.com:13531[0m diff [1;37m65537[0m algo [1;37mcn/2[0m[0m
+2019/01/14 14:59:06 [INFO] ETH: 01/14/19-14:59:06 - New job from eth.f2pool.com:8008
+2019/01/14 14:59:06 [INFO] ETH - Total Speed: 185.359 Mh/s, Total Shares: 54, Rejected: 0, Time: 00:20
+2019/01/14 14:59:06 [INFO] ETH: GPU0 30.984 Mh/s, GPU1 31.065 Mh/s, GPU2 30.309 Mh/s, GPU3 31.112 Mh/s, GPU4 31.110 Mh/s, GPU5 30.779 Mh/s
+2019/01/14 14:59:06 [INFO] ETH: 01/14/19-14:59:06 - New job from eth.f2pool.com:8008
+2019/01/14 14:59:06 [INFO] ETH - Total Speed: 185.359 Mh/s, Total Shares: 54, Rejected: 0, Time: 00:20
+2019/01/14 14:59:06 [INFO] ETH: GPU0 30.984 Mh/s, GPU1 31.065 Mh/s, GPU2 30.309 Mh/s, GPU3 31.112 Mh/s, GPU4 31.110 Mh/s, GPU5 30.779 Mh/s
+2019/01/14 14:59:12 [INFO] ETH: 01/14/19-14:59:12 - SHARE FOUND - (GPU 1)
+2019/01/14 14:59:12 [INFO] ETH: Share accepted (28 ms)!
+2019/01/14 14:59:15 [INFO] ETH: 01/14/19-14:59:14 - New job from eth.f2pool.com:8008
+2019/01/14 14:59:15 [INFO] ETH - Total Speed: 185.367 Mh/s, Total Shares: 55, Rejected: 0, Time: 00:20
+2019/01/14 14:59:15 [INFO] ETH: GPU0 30.982 Mh/s, GPU1 31.066 Mh/s, GPU2 30.312 Mh/s, GPU3 31.116 Mh/s, GPU4 31.111 Mh/s, GPU5 30.779 Mh/s
+2019/01/14 14:59:15 [INFO] ETH: 01/14/19-14:59:15 - New job from eth.f2pool.com:8008
+2019/01/14 14:59:15 [INFO] ETH - Total Speed: 185.321 Mh/s, Total Shares: 55, Rejected: 0, Time: 00:20
+2019/01/14 14:59:15 [INFO] ETH: GPU0 30.981 Mh/s, GPU1 31.060 Mh/s, GPU2 30.302 Mh/s, GPU3 31.106 Mh/s, GPU4 31.102 Mh/s, GPU5 30.770 Mh/s
+2019/01/14 14:59:15 [INFO] ETH: 01/14/19-14:59:15 - New job from eth.f2pool.com:8008
+2019/01/14 14:59:15 [INFO] ETH - Total Speed: 185.106 Mh/s, Total Shares: 55, Rejected: 0, Time: 00:20
+2019/01/14 14:59:15 [INFO] ETH: GPU0 30.788 Mh/s, GPU1 31.055 Mh/s, GPU2 30.297 Mh/s, GPU3 31.102 Mh/s, GPU4 31.099 Mh/s, GPU5 30.765 Mh/s
+2019/01/14 14:59:16 [INFO] ETH: 01/14/19-14:59:16 - New job from eth.f2pool.com:8008
+2019/01/14 14:59:16 [INFO] ETH - Total Speed: 185.377 Mh/s, Total Shares: 55, Rejected: 0, Time: 00:20
+2019/01/14 14:59:16 [INFO] ETH: GPU0 31.007 Mh/s, GPU1 31.064 Mh/s, GPU2 30.310 Mh/s, GPU3 31.110 Mh/s, GPU4 31.109 Mh/s, GPU5 30.777 Mh/s
+2019-01-14 14:59:20,062 [INFO] check miner proc status, pid 5297
+2019/01/14 14:59:23 [INFO] ETH: 01/14/19-14:59:23 - New job from eth.f2pool.com:8008
+2019/01/14 14:59:23 [INFO] ETH - Total Speed: 185.387 Mh/s, Total Shares: 55, Rejected: 0, Time: 00:20
+2019/01/14 14:59:23 [INFO] ETH: GPU0 31.011 Mh/s, GPU1 31.068 Mh/s, GPU2 30.308 Mh/s, GPU3 31.113 Mh/s, GPU4 31.111 Mh/s, GPU5 30.777 Mh/s
+2019/01/14 14:59:24 [INFO] ETH: 01/14/19-14:59:24 - New job from eth.f2pool.com:8008
+2019/01/14 14:59:24 [INFO] ETH - Total Speed: 185.389 Mh/s, Total Shares: 55, Rejected: 0, Time: 00:20
+2019/01/14 14:59:24 [INFO] ETH: GPU0 31.008 Mh/s, GPU1 31.066 Mh/s, GPU2 30.312 Mh/s, GPU3 31.112 Mh/s, GPU4 31.110 Mh/s, GPU5 30.780 Mh/s
+2019/01/14 14:59:24 [INFO] GPU0 t=60C fan=48%, GPU1 t=62C fan=48%, GPU2 t=58C fan=48%, GPU3 t=56C fan=48%, GPU4 t=57C fan=48%, GPU5 t=59C fan=48%
+2019-01-14 14:59:27,263 [INFO] check miner proc status, pid 5330
+2019/01/14 14:59:40 [INFO] ETH: 01/14/19-14:59:40 - SHARE FOUND - (GPU 0)
+2019/01/14 14:59:40 [INFO] ETH: Share accepted (51 ms)!
+2019/01/14 14:59:41 [INFO] ETH: 01/14/19-14:59:41 - New job from eth.f2pool.com:8008
+2019/01/14 14:59:41 [INFO] ETH - Total Speed: 185.372 Mh/s, Total Shares: 56, Rejected: 0, Time: 00:20
+2019/01/14 14:59:41 [INFO] ETH: GPU0 30.993 Mh/s, GPU1 31.063 Mh/s, GPU2 30.311 Mh/s, GPU3 31.114 Mh/s, GPU4 31.112 Mh/s, GPU5 30.778 Mh/s
+2019/01/14 14:59:41 [INFO] ETH: 01/14/19-14:59:41 - New job from eth.f2pool.com:8008
+2019/01/14 14:59:41 [INFO] ETH - Total Speed: 185.337 Mh/s, Total Shares: 56, Rejected: 0, Time: 00:20
+2019/01/14 14:59:41 [INFO] ETH: GPU0 30.990 Mh/s, GPU1 31.056 Mh/s, GPU2 30.311 Mh/s, GPU3 31.104 Mh/s, GPU4 31.098 Mh/s, GPU5 30.778 Mh/s
+[2019-01-14 14:59:42] [1;35mnew job[0m from [1;37mxmr.f2pool.com:13531[0m diff [1;37m32768[0m algo [1;37mcn/2[0m[0m
+2019/01/14 14:59:44 [INFO] ETH: 01/14/19-14:59:44 - New job from eth.f2pool.com:8008
+2019/01/14 14:59:44 [INFO] ETH - Total Speed: 185.377 Mh/s, Total Shares: 56, Rejected: 0, Time: 00:20
+2019/01/14 14:59:44 [INFO] ETH: GPU0 31.014 Mh/s, GPU1 31.064 Mh/s, GPU2 30.309 Mh/s, GPU3 31.108 Mh/s, GPU4 31.108 Mh/s, GPU5 30.774 Mh/s
+2019/01/14 14:59:45 [INFO] ETH: 01/14/19-14:59:44 - New job from eth.f2pool.com:8008
+2019/01/14 14:59:45 [INFO] ETH - Total Speed: 185.342 Mh/s, Total Shares: 56, Rejected: 0, Time: 00:20
+2019/01/14 14:59:45 [INFO] ETH: GPU0 31.009 Mh/s, GPU1 31.056 Mh/s, GPU2 30.305 Mh/s, GPU3 31.100 Mh/s, GPU4 31.098 Mh/s, GPU5 30.774 Mh/s
+2019-01-14 14:59:50,062 [INFO] check miner proc status, pid 5297
+[2019-01-14 14:59:53] [1;37mspeed[0m 10s/60s/15m [1;36m335.44[0m[0;36m 335.49 335.43 [0m[1;36mH/s[0m max [1;36m335.62 H/s[0m[0m
+2019/01/14 14:59:54 [INFO] GPU0 t=60C fan=48%, GPU1 t=63C fan=48%, GPU2 t=58C fan=48%, GPU3 t=56C fan=48%, GPU4 t=57C fan=48%, GPU5 t=60C fan=48%
+[2019-01-14 15:00:02] [1;35mnew job[0m from [1;37mxmr.f2pool.com:13531[0m diff [1;37m16384[0m algo [1;37mcn/2[0m[0m
+2019/01/14 15:00:04 [INFO] ETH: 01/14/19-15:00:04 - SHARE FOUND - (GPU 5)
+2019/01/14 15:00:04 [INFO] ETH: Share accepted (29 ms)!

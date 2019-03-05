@@ -1,0 +1,212 @@
+amosOS-SMI v1.0.5
+
+GPU0 [0000:0002:00.0]: Device 67df 113-2E366FU-O53
+ * DPM/Performance Level: 7
+ * Core Clock: 1190 Mhz
+ * Core Clock Offset: 0 Mhz
+ * Default Core Clock: 1190 Mhz
+ * Max Core Clock: 2000 Mhz
+ * Memory Clock: 2150 Mhz
+ * Memory Clock Offset: +40 Mhz
+ * Default Memory Clock: 2110 Mhz
+ * Max Memory Clock: 2300 Mhz
+ * Temperature: 60C
+ * Throttle Temperature: 80C
+ * Shutdown Temperature: 94C
+ * Fan Speed: 48%
+ * Fan RPM: 1536 RPM
+ * Power Usage: 75W
+ * Power Limit: 195W
+ * Default Power Limit: 195W
+ * Throttle Reasons: N/A
+ * Sysfs Path: /sys/bus/pci/devices/0000:02:00.0
+ * Optimal Core Clock: 1190 Mhz
+ * Optimal Memory Clock: 2150 Mhz
+ * Min Core Voltage: 765 mV
+ * Default Core Voltage: 1137 mV
+ * Optimal Core Voltage: 850 mV
+ * Current Core Voltage: 842 mV
+ * Min Memory Voltage: 765 mV
+ * Default Memory Voltage: 900 mV
+ * Optimal Memory Voltage: 850 mV
+ * Current Memory Voltage: 850 mV
+ * Min VDDCI: 800 mV
+ * Default VDDCI: 900 mV
+ * Optimal VDDCI: 900 mV
+ * Current VDDCI: 900 mV
+
+GPU1 [0000:0003:00.0]: Device 67df 113-2E366FU-O53
+ * DPM/Performance Level: 7
+ * Core Clock: 1190 Mhz
+ * Core Clock Offset: 0 Mhz
+ * Default Core Clock: 1190 Mhz
+ * Max Core Clock: 2000 Mhz
+ * Memory Clock: 2150 Mhz
+ * Memory Clock Offset: +40 Mhz
+ * Default Memory Clock: 2110 Mhz
+ * Max Memory Clock: 2300 Mhz
+ * Temperature: 62C
+ * Throttle Temperature: 80C
+ * Shutdown Temperature: 94C
+ * Fan Speed: 48%
+ * Fan RPM: 1536 RPM
+ * Power Usage: 74W
+ * Power Limit: 195W
+ * Default Power Limit: 195W
+ * Throttle Reasons: N/A
+ * Sysfs Path: /sys/bus/pci/devices/0000:03:00.0
+ * Optimal Core Clock: 1190 Mhz
+ * Optimal Memory Clock: 2150 Mhz
+ * Min Core Voltage: 765 mV
+ * Default Core Voltage: 1131 mV
+ * Optimal Core Voltage: 850 mV
+ * Current Core Voltage: 845 mV
+ * Min Memory Voltage: 765 mV
+ * Default Memory Voltage: 900 mV
+ * Optimal Memory Voltage: 850 mV
+ * Current Memory Voltage: 850 mV
+ * Min VDDCI: 800 mV
+ * Default VDDCI: 900 mV
+ * Optimal VDDCI: 900 mV
+ * Current VDDCI: 900 mV
+
+GPU2 [0000:0005:00.0]: Device 67df 113-2E366FU-O53
+ * DPM/Performance Level: 7
+ * Core Clock: 1150 Mhz
+ * Core Clock Offset: -40 Mhz
+ * Default Core Clock: 1190 Mhz
+ * Max Core Clock: 2000 Mhz
+ * Memory Clock: 2100 Mhz
+ * Memory Clock Offset: -10 Mhz
+ * Default Memory Clock: 2110 Mhz
+ * Max Memory Clock: 2300 Mhz
+ * Temperature: 58C
+ * Throttle Temperature: 80C
+ * Shutdown Temperature: 94C
+ * Fan Speed: 48%
+ * Fan RPM: 1536 RPM
+ * Power Usage: 78W
+ * Power Limit: 195W
+ * Default Power Limit: 195W
+ * Throttle Reasons: N/A
+ * Sysfs Path: /sys/bus/pci/devices/0000:05:00.0
+ * Optimal Core Clock: 1150 Mhz
+ * Optimal Memory Clock: 2100 Mhz
+ * Min Core Voltage: 765 mV
+ * Default Core Voltage: 1150 mV
+ * Optimal Core Voltage: 880 mV
+ * Current Core Voltage: 874 mV
+ * Min Memory Voltage: 765 mV
+ * Default Memory Voltage: 900 mV
+ * Optimal Memory Voltage: 880 mV
+ * Current Memory Voltage: 880 mV
+ * Min VDDCI: 800 mV
+ * Default VDDCI: 900 mV
+ * Optimal VDDCI: 900 mV
+ * Current VDDCI: 900 mV
+
+GPU3 [0000:0009:00.0]: Device 67df 113-5E353FU-O4C
+ * DPM/Performance Level: 7
+ * Core Clock: 1190 Mhz
+ * Core Clock Offset: 0 Mhz
+ * Default Core Clock: 1190 Mhz
+ * Max Core Clock: 2000 Mhz
+ * Memory Clock: 2150 Mhz
+ * Memory Clock Offset: +40 Mhz
+ * Default Memory Clock: 2110 Mhz
+ * Max Memory Clock: 2300 Mhz
+ * Temperature: 57C
+ * Throttle Temperature: 85C
+ * Shutdown Temperature: 94C
+ * Fan Speed: 48%
+ * Fan RPM: 1536 RPM
+ * Power Usage: 109W
+ * Power Limit: 195W
+ * Default Power Limit: 195W
+ * Throttle Reasons: N/A
+ * Sysfs Path: /sys/bus/pci/devices/0000:09:00.0
+ * Optimal Core Clock: 1190 Mhz
+ * Optimal Memory Clock: 2150 Mhz
+ * Min Core Voltage: 765 mV
+ * Default Core Voltage: 1131 mV
+ * Optimal Core Voltage: 850 mV
+ * Current Core Voltage: 844 mV
+ * Min Memory Voltage: 765 mV
+ * Default Memory Voltage: 900 mV
+ * Optimal Memory Voltage: 850 mV
+ * Current Memory Voltage: 850 mV
+ * Min VDDCI: 800 mV
+ * Default VDDCI: 900 mV
+ * Optimal VDDCI: 900 mV
+ * Current VDDCI: 900 mV
+
+GPU4 [0000:000c:00.0]: Device 67df 113-2E366FU-O53
+ * DPM/Performance Level: 7
+ * Core Clock: 1190 Mhz
+ * Core Clock Offset: 0 Mhz
+ * Default Core Clock: 1190 Mhz
+ * Max Core Clock: 2000 Mhz
+ * Memory Clock: 2150 Mhz
+ * Memory Clock Offset: +40 Mhz
+ * Default Memory Clock: 2110 Mhz
+ * Max Memory Clock: 2300 Mhz
+ * Temperature: 57C
+ * Throttle Temperature: 80C
+ * Shutdown Temperature: 94C
+ * Fan Speed: 48%
+ * Fan RPM: 1536 RPM
+ * Power Usage: 78W
+ * Power Limit: 195W
+ * Default Power Limit: 195W
+ * Throttle Reasons: N/A
+ * Sysfs Path: /sys/bus/pci/devices/0000:0c:00.0
+ * Optimal Core Clock: 1190 Mhz
+ * Optimal Memory Clock: 2150 Mhz
+ * Min Core Voltage: 765 mV
+ * Default Core Voltage: 1125 mV
+ * Optimal Core Voltage: 850 mV
+ * Current Core Voltage: 844 mV
+ * Min Memory Voltage: 765 mV
+ * Default Memory Voltage: 900 mV
+ * Optimal Memory Voltage: 850 mV
+ * Current Memory Voltage: 850 mV
+ * Min VDDCI: 800 mV
+ * Default VDDCI: 900 mV
+ * Optimal VDDCI: 900 mV
+ * Current VDDCI: 900 mV
+
+GPU5 [0000:000d:00.0]: Device 67df 113-1E366CU-S52
+ * DPM/Performance Level: 7
+ * Core Clock: 1150 Mhz
+ * Core Clock Offset: 0 Mhz
+ * Default Core Clock: 1150 Mhz
+ * Max Core Clock: 1250 Mhz
+ * Memory Clock: 2200 Mhz
+ * Memory Clock Offset: +50 Mhz
+ * Default Memory Clock: 2150 Mhz
+ * Max Memory Clock: 2500 Mhz
+ * Temperature: 60C
+ * Throttle Temperature: 85C
+ * Shutdown Temperature: 94C
+ * Fan Speed: 48%
+ * Fan RPM: 1536 RPM
+ * Power Usage: 72W
+ * Power Limit: 195W
+ * Default Power Limit: 195W
+ * Throttle Reasons: N/A
+ * Sysfs Path: /sys/bus/pci/devices/0000:0d:00.0
+ * Optimal Core Clock: 1150 Mhz
+ * Optimal Memory Clock: 2200 Mhz
+ * Min Core Voltage: 815 mV
+ * Default Core Voltage: 795 mV
+ * Optimal Core Voltage: 850 mV
+ * Current Core Voltage: 845 mV
+ * Min Memory Voltage: 815 mV
+ * Default Memory Voltage: 950 mV
+ * Optimal Memory Voltage: 850 mV
+ * Current Memory Voltage: 850 mV
+ * Min VDDCI: 800 mV
+ * Default VDDCI: 950 mV
+ * Optimal VDDCI: 950 mV
+ * Current VDDCI: 950 mV
+

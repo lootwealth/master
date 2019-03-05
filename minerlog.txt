@@ -1,0 +1,26 @@
+GPU #5: Ellesmere (Radeon RX 570 Series), 4084 MB available, 32 compute units (pci bus 13:0:0)
+ETH - Total Speed: 145.233 Mh/s, Total Shares: 0(0+0+0+0+0+0), Rejected: 0(0+0+0+0+0+0), Time: 00:01
+ETH: GPU0 29.286 Mh/s, GPU1 29.273 Mh/s, GPU2 0.000 Mh/s, GPU3 28.889 Mh/s, GPU4 28.894 Mh/s, GPU5 28.891 Mh/s
+Incorrect ETH shares: none
+1 minute average ETH total speed: 144.905 Mh/s
+Pool switches: ETH - 0
+Current ETH share target: 0x00000000ffffffff (diff: 4294MH), epoch 243(2.90GB)
+Current -dcri values: -dcri 6,6,30,30,30,30
+GPU0 t=45C fan=47%, GPU1 t=43C fan=26%, GPU2 t=28C fan=47%, GPU3 t=42C fan=26%, GPU4 t=43C fan=48%, GPU5 t=44C fan=47%
+
+
+GPU #0: Ellesmere (Radeon RX 570 Series), 4084 MB available, 32 compute units (pci bus 4:0:0)
+GPU #1: Ellesmere (Radeon RX 570 Series), 4084 MB available, 32 compute units (pci bus 5:0:0)
+GPU #2: Ellesmere (Radeon RX 570 Series), 4084 MB available, 32 compute units (pci bus 6:0:0)
+GPU #3: Ellesmere (Radeon RX 570 Series), 4084 MB available, 32 compute units (pci bus 7:0:0)
+rpc started
+miner stared
+('rpc error: timed out', 6)
+('rpc error: timed out', 6)
+('rpc error: timed out', 6)
+('rpc error: timed out', 6)
+('rpc error: timed out', 6)
+('rpc error: timed out', 6)
+('rpc error: timed out', 6)
+('rpc error: timed out', 6)
+('rpc error: timed out', 6)

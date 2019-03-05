@@ -1,0 +1,107 @@
+mosOS-SMI v1.0.5
+
+GPU0 [0000:0001:00.0]: Device 67df 113-1E366CU-S52
+ * DPM/Performance Level: 0
+ * Core Clock: 300 Mhz
+ * Core Clock Offset: -826 Mhz
+ * Default Core Clock: 1126 Mhz
+ * Max Core Clock: 1200 Mhz
+ * Memory Clock: 300 Mhz
+ * Memory Clock Offset: -1725 Mhz
+ * Default Memory Clock: 2025 Mhz
+ * Max Memory Clock: 2250 Mhz
+ * Temperature: 36C
+ * Throttle Temperature: 85C
+ * Shutdown Temperature: 94C
+ * Fan Speed: 16%
+ * Fan RPM: 512 RPM
+ * Power Usage: 40W
+ * Power Limit: 182W
+ * Default Power Limit: 182W
+ * Throttle Reasons: N/A
+ * Sysfs Path: /sys/bus/pci/devices/0000:01:00.0
+ * Optimal Core Clock: 300 Mhz
+ * Optimal Memory Clock: 2025 Mhz
+ * Min Core Voltage: 815 mV
+ * Default Core Voltage: 800 mV
+ * Optimal Core Voltage: 800 mV
+ * Current Core Voltage: 800 mV
+ * Min Memory Voltage: 815 mV
+ * Default Memory Voltage: 950 mV
+ * Optimal Memory Voltage: 950 mV
+ * Current Memory Voltage: 800 mV
+ * Min VDDCI: 800 mV
+ * Default VDDCI: 950 mV
+ * Optimal VDDCI: 950 mV
+ * Current VDDCI: 800 mV
+
+GPU1 [0000:0002:00.0]: Device 67df 113-48085HYF1-W80
+ * DPM/Performance Level: 0
+ * Core Clock: 300 Mhz
+ * Core Clock Offset: -988 Mhz
+ * Default Core Clock: 1288 Mhz
+ * Max Core Clock: 2000 Mhz
+ * Memory Clock: 300 Mhz
+ * Memory Clock Offset: -1715 Mhz
+ * Default Memory Clock: 2015 Mhz
+ * Max Memory Clock: 2250 Mhz
+ * Temperature: 26C
+ * Throttle Temperature: 90C
+ * Shutdown Temperature: 94C
+ * Fan Speed: 33%
+ * Fan RPM: 1254 RPM
+ * Power Usage: 15W
+ * Power Limit: 169W
+ * Default Power Limit: 169W
+ * Throttle Reasons: N/A
+ * Sysfs Path: /sys/bus/pci/devices/0000:02:00.0
+ * Optimal Core Clock: 300 Mhz
+ * Optimal Memory Clock: 2015 Mhz
+ * Min Core Voltage: 815 mV
+ * Default Core Voltage: 800 mV
+ * Optimal Core Voltage: 800 mV
+ * Current Core Voltage: 827 mV
+ * Min Memory Voltage: 815 mV
+ * Default Memory Voltage: 1000 mV
+ * Optimal Memory Voltage: 1000 mV
+ * Current Memory Voltage: 800 mV
+ * Min VDDCI: 850 mV
+ * Default VDDCI: 950 mV
+ * Optimal VDDCI: 950 mV
+ * Current VDDCI: 850 mV
+
+GPU2 [0000:0004:00.0]: Device 67df 113-1E366CU-S52
+ * DPM/Performance Level: 0
+ * Core Clock: 300 Mhz
+ * Core Clock Offset: -826 Mhz
+ * Default Core Clock: 1126 Mhz
+ * Max Core Clock: 1200 Mhz
+ * Memory Clock: 300 Mhz
+ * Memory Clock Offset: -1725 Mhz
+ * Default Memory Clock: 2025 Mhz
+ * Max Memory Clock: 2250 Mhz
+ * Temperature: 29C
+ * Throttle Temperature: 85C
+ * Shutdown Temperature: 94C
+ * Fan Speed: 16%
+ * Fan RPM: 512 RPM
+ * Power Usage: 41W
+ * Power Limit: 182W
+ * Default Power Limit: 182W
+ * Throttle Reasons: N/A
+ * Sysfs Path: /sys/bus/pci/devices/0000:04:00.0
+ * Optimal Core Clock: 300 Mhz
+ * Optimal Memory Clock: 2025 Mhz
+ * Min Core Voltage: 815 mV
+ * Default Core Voltage: 800 mV
+ * Optimal Core Voltage: 800 mV
+ * Current Core Voltage: 794 mV
+ * Min Memory Voltage: 815 mV
+ * Default Memory Voltage: 950 mV
+ * Optimal Memory Voltage: 950 mV
+ * Current Memory Voltage: 800 mV
+ * Min VDDCI: 800 mV
+ * Default VDDCI: 950 mV
+ * Optimal VDDCI: 950 mV
+ * Current VDDCI: 800 mV
+
