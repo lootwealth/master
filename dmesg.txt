@@ -1293,3 +1293,64 @@
 [   78.246785] [drm] Cannot find any crtc or sizes
 [   78.374771] [drm] Cannot find any crtc or sizes
 [   85.632116] softdog: initialized. soft_noboot=0 soft_margin=300 sec soft_panic=0 (nowayout=0)
+[ 1086.150356] amdgpu: [powerplay] 
+                failed to send message 18a ret is 0 
+[ 1086.485680] amdgpu: [powerplay] 
+                failed to send pre message 18c ret is 0 
+[ 1086.821594] amdgpu: [powerplay] 
+                failed to send message 18c ret is 0 
+[ 1087.493539] amdgpu: [powerplay] 
+                failed to send pre message 145 ret is 0 
+[ 1087.829378] amdgpu: [powerplay] 
+                failed to send message 145 ret is 0 
+[ 1088.501171] amdgpu: [powerplay] 
+                failed to send pre message 146 ret is 0 
+[ 1088.837257] amdgpu: [powerplay] 
+                failed to send message 146 ret is 0 
+[ 1089.510013] amdgpu: [powerplay] 
+                failed to send pre message 145 ret is 0 
+[ 1089.846295] amdgpu: [powerplay] 
+                failed to send message 145 ret is 0 
+[ 1090.184092] amdgpu: [powerplay] 
+                failed to send pre message 5b ret is 0 
+[ 1090.520453] amdgpu: [powerplay] 
+                failed to send message 5b ret is 0 
+[ 1091.193128] amdgpu: [powerplay] 
+                failed to send pre message 205 ret is 0 
+[ 1091.529662] amdgpu: [powerplay] 
+                failed to send message 205 ret is 0 
+[ 1092.202240] amdgpu: [powerplay] 
+                failed to send pre message 20a ret is 0 
+[ 1092.538761] amdgpu: [powerplay] 
+                failed to send message 20a ret is 0 
+[ 1092.955810] amdgpu: [powerplay] 
+                failed to send message 18a ret is 0 
+[ 1093.292542] amdgpu: [powerplay] 
+                failed to send pre message 18c ret is 0 
+[ 1093.629181] amdgpu: [powerplay] 
+                failed to send message 18c ret is 0 
+[ 1094.302203] amdgpu: [powerplay] 
+                failed to send pre message 145 ret is 0 
+[ 1094.638763] amdgpu: [powerplay] 
+                failed to send message 145 ret is 0 
+[ 1095.311826] amdgpu: [powerplay] 
+                failed to send pre message 146 ret is 0 
+[ 1095.648365] amdgpu: [powerplay] 
+                failed to send message 146 ret is 0 
+[ 1096.317914] amdgpu: [powerplay] 
+                failed to send pre message 145 ret is 0 
+[ 1096.651912] amdgpu: [powerplay] 
+                failed to send message 145 ret is 0 
+[ 1096.989482] amdgpu: [powerplay] 
+                failed to send pre message 5b ret is 0 
+[ 1097.352703] amdgpu: [powerplay] 
+                failed to send message 5b ret is 0 
+[ 1098.089226] amdgpu: [powerplay] 
+                failed to send pre message 205 ret is 0 
+[ 1098.457605] amdgpu: [powerplay] 
+                failed to send message 205 ret is 0 
+[ 1099.194074] amdgpu: [powerplay] 
+                failed to send pre message 20a ret is 0 
+[ 1099.562270] amdgpu: [powerplay] 
+                failed to send message 20a ret is 0 
+[ 1107.135965] watchdog: watchdog0: watchdog did not stop!
