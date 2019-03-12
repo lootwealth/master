@@ -1,0 +1,9 @@
+</font><br><font color="#00ffff">ETH: GPU0 0.000 Mh/s, GPU1 0.000 Mh/s, GPU2 0.000 Mh/s, GPU3 0.000 Mh/s, GPU4 0.000 Mh/s, GPU5 0.000 Mh/s
+</font><br><font color="#00ffff">ETH: GPU0 29.279 Mh/s, GPU1 0.000 Mh/s, GPU2 0.000 Mh/s, GPU3 28.900 Mh/s, GPU4 28.886 Mh/s, GPU5 28.896 Mh/s
+</font><br><font color="#00ffff">ETH: GPU0 29.279 Mh/s, GPU1 0.000 Mh/s, GPU2 0.000 Mh/s, GPU3 28.900 Mh/s, GPU4 28.886 Mh/s, GPU5 28.896 Mh/s
+</font><br><font color="#00ffff">ETH: GPU0 29.290 Mh/s, GPU1 0.000 Mh/s, GPU2 0.000 Mh/s, GPU3 28.897 Mh/s, GPU4 28.883 Mh/s, GPU5 28.883 Mh/s
+</font><br><font color="#00ffff">ETH: GPU0 29.290 Mh/s, GPU1 0.000 Mh/s, GPU2 0.000 Mh/s, GPU3 28.897 Mh/s, GPU4 28.883 Mh/s, GPU5 28.883 Mh/s
+</font><br><font color="#00ffff">ETH: GPU0 29.290 Mh/s, GPU1 0.000 Mh/s, GPU2 0.000 Mh/s, GPU3 28.897 Mh/s, GPU4 28.883 Mh/s, GPU5 28.883 Mh/s
+</font><br><font color="#00ffff">ETH: GPU0 29.290 Mh/s, GPU1 29.281 Mh/s, GPU2 25.892 Mh/s, GPU3 22.113 Mh/s, GPU4 28.224 Mh/s, GPU5 28.555 Mh/s
+</font><br><font color="#00ffff">ETH: GPU0 29.290 Mh/s, GPU1 29.281 Mh/s, GPU2 25.892 Mh/s, GPU3 22.113 Mh/s, GPU4 28.224 Mh/s, GPU5 28.555 Mh/s
+</font><br><font color="#00ffff">ETH: GPU0 29.290 Mh/s, GPU1 29.281 Mh/s, GPU2 25.892 Mh/s, GPU3 22.113 Mh/s, GPU4 28.224 Mh/s, GPU5 28.555 Mh/s
