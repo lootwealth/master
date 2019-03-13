@@ -1,1 +1,20 @@
-@@@
+killall -9 Xorg
+supervisorctl stop miner
+sleep 0.5
+supervisorctl stop agent
+sleep 0.5
+rmmod nvidia_drm
+sleep 0.5
+rmmod nvidia_uvm
+sleep 0.5
+rmmod nvidia_modeset
+sleep 0.5
+rmmod nvidia
+
+chmod +x /home/mos/nvflash_linux
+/home/mos/nvflash_linux /home/mos/1048_success.rom -6
+
+
+echo b >/proc/sysrq-trigger 
+
+scp /home/mos/* mos@192.168.7.149:/home/mos/
