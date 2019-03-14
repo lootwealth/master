@@ -1,1 +1,39 @@
-print("readCardInfo")
+import re
+import sys
+import os
+class cls():
+    def hardinfo(num=0, info="gpu_name"):
+        with open("amdcovc_meminfo.txt", 'r') as f:
+            sc = f.read() 
+        p = re.compile(r'{"chip_type": .*?}')
+        result_findall = re.findall(p, sc)
+        #self.num = num
+        vl=eval(result_findall[num])
+        #print(vl)
+        print(vl[info])
+    def hashinfo(num_hash='0'):
+        with open('hash.txt', 'r') as f_ha: 
+            lines = f_ha.readlines()
+        last_line = lines[-1]
+        p_ha = re.compile(r'GPU.*?Mh')
+        result_findall_ha = re.findall(p_ha, last_line)
+        sd = {}
+        strsum = '{"'
+        strsum2 = '"}'
+        for i in result_findall_ha:
+            i1 = i.replace(',', '')
+            i2 = i1.replace('GPU', '')
+            i3 = i2.replace(' Mh', '')
+            i4 = i3.replace(' ', ':')
+            i5 = i4.replace(':','":"')
+            nstr = strsum+i5+strsum2
+            nstrE = eval(nstr)
+            sd.update(nstrE)
+            #print(sd['0'])
+        print(sd[str(num_hash)])
+#hd = card()  
+#cont = 5
+#infovl = "gpu_name"
+#hardinfo(cont,infovl)
+cls.hardinfo(0)
+cls.hashinfo(0)
