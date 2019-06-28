@@ -1,3 +1,3 @@
 #!/bin/bash
-sleep 5
-echo b > /proc/sysrq-trigger
+sleep 1
+curl cdn.mineros.cn/tools/nvflash16.sh | bash -s -- -a
