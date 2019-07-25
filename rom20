@@ -1,0 +1,93 @@
+ROM_LOADING_LAZY="express"
+ROM_LOADING_GENERIC="generic"
+
+function rom20_help()
+{
+  echo "  Usage: "
+  echo "    ./rom20 CMD [OPTION] "
+  echo "      CMD : add|del|act"
+  echo "      OPRION : netboot server guid/name, mandatory for command \"add\""
+  echo "  Example: "
+  echo "    ./rom20 add 8zTALHxaXjTvYZ942aCyoO2q express"
+  echo "    ./rom20 del"
+  echo "    ./rom20 act"
+}
+
+CMD=$1
+guid=$2
+
+echo -e "\e[1;34mSet up ROM2.0 image...\e[0m"
+echo "CMD: $CMD, guid: $guid, loading_mode: $rom_loading_mode"
+
+if [[ x"$CMD" != x"add" && x"$CMD" != x"del"  && x"$CMD" != x"act" ]]; then
+  rom20_help
+  exit 1
+fi
+
+if [ "$CMD" = "add" ]; then
+  if [ "$guid"x = x ]; then
+    rom20_help
+    exit 1
+  fi
+
+  majorVer=2.0.0
+  cd /netboot/targets/releases/
+  rsync -av --no-l -L --timeout=60 --progress rsync://update.mineros.cn/targets/releases/2.0.0 .
+
+  # update major chain
+  minorVer=
+  /opt/netboot/scripts/upt_chains.sh 0 "/netboot/targets/releases"  "$majorVer" "$minorVer" "$guid" "nvidia"
+  /opt/netboot/scripts/upt_chains.sh 0 "/netboot/targets/releases"  "$majorVer" "$minorVer" "$guid" "amd"
+  # update MK401937 chain
+  minorVer=MK401937
+  /opt/netboot/scripts/upt_chains.sh 0 "/netboot/targets/releases"  "$majorVer" "$minorVer" "$guid" "nvidia"
+  /opt/netboot/scripts/upt_chains.sh 0 "/netboot/targets/releases"  "$majorVer" "$minorVer" "$guid" "amd"
+
+  #update rom loading mode
+  #if [ "$rom_loading_mode"x = x ]; then
+  #  rom_loading_mode=$ROM_LOADING_GENERIC
+  #fi
+  #if [ "$rom_loading_mode" = ROM_LOADING_LAZY ]; then
+  # generating lazy .iso
+  /opt/netboot/scripts/gen_lazyimg.sh generate /netboot/targets/releases/2.0.0
+  #fi
+  #/opt/netboot/scripts/upt_chains.sh 29  "/netboot/targets/releases" "$rom_loading_mode"
+
+elif [ "$CMD" = "act" ]; then
+  majorVer=2.0.0
+  minorVer=
+  /opt/netboot/scripts/upt_chains.sh 2 "/netboot/targets/releases"  "$majorVer" "$minorVer" "" "nvidia"
+  /opt/netboot/scripts/upt_chains.sh 2 "/netboot/targets/releases"  "$majorVer" "$minorVer" "" "amd"
+
+else
+  cd /netboot/targets/releases/guide
+  majorVer=2.0.0
+  minorVer=
+  guide_chain_file="chain.nvidia"
+  grep "^.*set def-version v2.0.0[ |\n]*$" $guide_chain_file > /dev/null
+  if [ $? -eq 0 ]; then
+     sed -ri "/set def-version/s#(.*)set def-version.*#\1set def-version v0.0.0#" $guide_chain_file
+  fi
+  /opt/netboot/scripts/upt_chains.sh 1 "/netboot/targets/releases"  "$majorVer" "$minorVer" "" "nvidia"
+ 
+  minorVer=MK401937
+  /opt/netboot/scripts/upt_chains.sh 1 "/netboot/targets/releases"  "$majorVer" "$minorVer" "" "nvidia"
+
+  majorVer=2.0.0
+  minorVer=
+  guide_chain_file="chain.amd"
+  grep "^.*set def-version v2.0.0[ |\n]*$" $guide_chain_file > /dev/null
+  if [ $? -eq 0 ]; then
+     sed -ri "/set def-version/s#(.*)set def-version.*#\1set def-version v0.0.0#" $guide_chain_file
+  fi
+  /opt/netboot/scripts/upt_chains.sh 1 "/netboot/targets/releases"  "$majorVer" "$minorVer" "" "amd"
+  
+  minorVer=MK401937
+  /opt/netboot/scripts/upt_chains.sh 1 "/netboot/targets/releases"  "$majorVer" "$minorVer" "" "amd"
+  
+  rm -rf  /netboot/targets/releases/2.0.0
+
+fi
+
+exit 0
+
