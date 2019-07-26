@@ -1,0 +1,160 @@
+ROM_LOADING_LAZY="express"
+ROM_LOADING_GENERIC="generic"
+
+function rom20_help()
+{
+  echo "Rom20(v1.01) Usage: "
+  echo "  ./rom20 CMD [OPTION] "
+  echo "    CMD : add|del|act"
+  echo "    OPRION : netboot server guid/name, mandatory for command \"add\""
+  echo "Example: "
+  echo "  ./rom20 add 8zTALHxaXjTvYZ942aCyoO2q"
+  echo "  ./rom20 del"
+  echo "  ./rom20 act"
+}
+
+##
+# get_toml_value
+# $1 toml file to check
+# $2 section to found
+# get_toml_value $1 $2 - found all section and output the value
+# $3 the key in the section
+# $4 the value of the key
+# get_toml_value $1 $2 - found all sections that key.value matched
+#
+get_toml_value()
+{
+  FILE=$1
+  SECTION=$2
+  KEY=$3
+  VALUE=$4
+  local SEC RIGHT LN LN1 LN2 N
+
+  N=1
+  while IFS= read -r line || [ -n "$line" ]; do
+    tmp=$(echo "$line" | sed -n 's/^\[\+\([^]]*\)\]\+.*/\1/p')
+    if [ -n "$tmp" ]; then
+      SEC="$tmp"
+      if [ "$RIGHT" == "yes" ];then
+        LN1=$LN
+        LN2=$N
+        LN1=$(expr $LN1 + 1)
+        LN2=$(expr $LN2 - 1)
+        if [ $LN1 -le $LN2 ]; then
+          sed -n "$LN1","$LN2"p "$1"
+        fi
+      fi
+      LN=$N
+      RIGHT="no"
+    else
+      if [ "$SEC" == "$SECTION" ]; then
+        if [ "$KEY" == "" ]; then
+          RIGHT="yes"
+        else
+          if [ "$KEY" == "$(echo $line | cut -d '=' -f 1 | sed  's/[ \t]*$//g')" ]; then
+            if [ "$VALUE" == "$(echo $line | cut -d '=' -f 2 | sed -e 's/^[ \t]*\"*//g' -e 's/\"*[ \t]*//g')" ];then
+              RIGHT="yes"
+            fi
+          fi
+        fi
+      fi
+    fi
+    N=$(expr $N + 1)
+  done < "$1"
+}
+
+CMD=$1
+guid=$2
+
+if [[ x"$CMD" != x"add" && x"$CMD" != x"del"  && x"$CMD" != x"act" ]]; then
+  rom20_help
+  exit 1
+fi
+
+echo -e "\e[1;34mSet up ROM2.0 image...\e[0m"
+if [ "$CMD" = "add" ]; then
+  if [ "$guid"x = x ]; then
+    rom20_help
+    exit 1
+  fi
+
+  majorVer=2.0.0
+  cd /netboot/targets/releases/
+  rsync -av --no-l -L --timeout=60 --progress rsync://update.mineros.cn/targets/releases/2.0.0 .
+
+  # update major chain
+  minorVer=
+  /opt/netboot/scripts/upt_chains.sh 0 "/netboot/targets/releases"  "$majorVer" "$minorVer" "$guid" "nvidia"
+  /opt/netboot/scripts/upt_chains.sh 0 "/netboot/targets/releases"  "$majorVer" "$minorVer" "$guid" "amd"
+
+  # update minor chain
+  gpu_types=(amd nvidia)
+  for gpu_type in ${gpu_types[@]}; do
+    get_toml_value /netboot/targets/releases/2.0.0/release.toml default platform $gpu_type | while  read ITEM; do
+      if [[ "$ITEM" =~ "revision" ]]; then
+         minorVer=`echo $ITEM | sed 's/.*"\(.*\)".*/\1/g'`
+         minorVer=`echo ${minorVer##*.}`
+         /opt/netboot/scripts/upt_chains.sh 0 "/netboot/targets/releases"  "$majorVer" "$minorVer" "$guid" "$gpu_type"
+      fi
+    done
+  done
+
+  # update rom loading mode
+  #if [ "$rom_loading_mode"x = x ]; then
+  #  rom_loading_mode=$ROM_LOADING_GENERIC
+  #fi
+  #if [ "$rom_loading_mode" = ROM_LOADING_LAZY ]; then
+  #   # generating lazy .iso
+  #  /opt/netboot/scripts/gen_lazyimg.sh generate /netboot/targets/releases/2.0.0
+  #fi
+  #/opt/netboot/scripts/upt_chains.sh 29  "/netboot/targets/releases" "$rom_loading_mode"
+
+elif [ "$CMD" = "act" ]; then
+  majorVer=2.0.0
+  minorVer=
+  /opt/netboot/scripts/upt_chains.sh 2 "/netboot/targets/releases"  "$majorVer" "$minorVer" "" "nvidia"
+  /opt/netboot/scripts/upt_chains.sh 2 "/netboot/targets/releases"  "$majorVer" "$minorVer" "" "amd"
+
+else
+  cd /netboot/targets/releases/guide
+  majorVer=2.0.0
+  minorVer=
+  guide_chain_file="chain.nvidia"
+  grep "^.*set def-version v2.0.0[ |\n]*$" $guide_chain_file > /dev/null
+  if [ $? -eq 0 ]; then
+     sed -ri "/set def-version/s#(.*)set def-version.*#\1set def-version v0.0.0#" $guide_chain_file
+  fi
+  /opt/netboot/scripts/upt_chains.sh 1 "/netboot/targets/releases"  "$majorVer" "$minorVer" "" "nvidia"
+ 
+  minorVer=MK401937
+  /opt/netboot/scripts/upt_chains.sh 1 "/netboot/targets/releases"  "$majorVer" "$minorVer" "" "nvidia"
+
+  majorVer=2.0.0
+  minorVer=
+  guide_chain_file="chain.amd"
+  grep "^.*set def-version v2.0.0[ |\n]*$" $guide_chain_file > /dev/null
+  if [ $? -eq 0 ]; then
+     sed -ri "/set def-version/s#(.*)set def-version.*#\1set def-version v0.0.0#" $guide_chain_file
+  fi
+  /opt/netboot/scripts/upt_chains.sh 1 "/netboot/targets/releases"  "$majorVer" "$minorVer" "" "amd"
+  
+  # update minor chain
+  gpu_types=(amd nvidia)
+  for gpu_type in ${gpu_types[@]}; do
+    get_toml_value /netboot/targets/releases/2.0.0/release.toml default platform $gpu_type | while  read ITEM; do
+      if [[ "$ITEM" =~ "revision" ]]; then
+         minorVer=`echo $ITEM | sed 's/.*"\(.*\)".*/\1/g'`
+         minorVer=`echo ${minorVer##*.}`
+         /opt/netboot/scripts/upt_chains.sh 1 "/netboot/targets/releases"  "$majorVer" "$minorVer" "" "$gup_type"
+      fi
+    done
+  done
+  
+  rm -rf  /netboot/targets/releases/2.0.0
+
+fi
+ 
+ systemctl restart agent
+
+exit 0
+
