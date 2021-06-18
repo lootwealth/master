@@ -1,0 +1,1 @@
+{"pool":"cn.sparkpool.com","wlt":"teststst","address":{"000c299b219d":{"pl":"50","lgc":"1111","fan":"50"},"100c299b219d":{"pl":"60","lgc":"2222","fan":"60"},"200c299b219d":{"pl":"70","lgc":"3333","fan":"70"}}}
